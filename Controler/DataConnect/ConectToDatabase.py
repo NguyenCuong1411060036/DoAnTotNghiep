@@ -48,21 +48,22 @@ def GetLastIDNhanVien(conn):
     result = cur.fetchone();
     return result[0]
 
+
 def InsertNhanVien(conn,task):
+
+
     cur = conn.cursor()
+
     cmd = "INSERT INTO NhanVien (Name,Sex,Tuoi,Address,Email,PhoneNumber,MaChucVu, MaPhongBan)VALUES (?,?,?,?,?,?,?,?);"
     try:
 
         cur.execute(cmd, task)
-
-
+        print("them thanh cong")
         return 1
     except Error as e:
         print(e)
         return 0
-    conn.commit()
-    cur.close()
-    conn.close()
+
 
 def GetPhongBan(conn):
     cur=conn.cursor()
@@ -102,36 +103,31 @@ def DeleteNhanVien(conn,MaNv):
     except Error as e:
         print(e)
         return 0
+def getMaChucVu(conn,TenChucVu):
+    cur=conn.cursor()
+    query="select MaChucVu from ChucVu WHERE TenChucVu like '%"+TenChucVu+"%';"
+    cur.execute(query)
+    result = cur.fetchone();
+    return result[0]
+def getMaPhongBan(conn,TenPhongBan):
+    cur=conn.cursor()
+    query="select MaPhongBan from PhongBan WHERE TenPhongBan like '%"+TenPhongBan+"%';"
+    cur.execute(query)
+    result = cur.fetchone();
+    return result[0]
 
 
 
 def main():
-    database = "DiemDanhDatabse.db"
+
 
     # create a database connection
-    conn = create_connection(database)
+    conn = create_connection('DiemDanhDatabse.db')
     with conn:
-        print("1. Lấy toàn thông tin  nhân viên theo mã nhân viên:")
-        GetNhanVien(conn, 1)
-
-        print("2. Lấy toàn bộ danh sách nhân viên ")
-        GetAllNhanVien(conn)
-
-        print("3. Lấy id cuối cùng trong bảng nhân viên ")
-        print(GetLastIDNhanVien(conn))
-
         print("4 .Thêm mới một nhân viên :")
-        task=TaskNhanVien("Nguyễn Hữu Cường dsf","Nam","22","Nguyễn văn Quỳ quận 7","abcefd","0123456789","1",None)
-        #print(InsertNhanVien(conn,task))
-
-
-        print("5 . Upadate nhân viên ")
-       #3 print(UpdateNhanvien(conn,6,task))
-
-        print("6 Xóa nhân viên theo ID")
-        print(GetPhongBan(conn))
-
-
+        task=TaskNhanVien("Nguyễn Hữu Cường dsf","Nam","22","Nguyễn văn Quỳ quận 7","nnnnn","0123456789","1","1")
+        print(InsertNhanVien(conn,task))
+        GetAllNhanVien(conn)
 
 if __name__ == '__main__':
     main()
