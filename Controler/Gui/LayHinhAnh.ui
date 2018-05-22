@@ -41,7 +41,7 @@
     <number>0</number>
    </property>
   </widget>
-  <widget class="QLabel" name="label">
+  <widget class="QLabel" name="lbImage">
    <property name="geometry">
     <rect>
      <x>40</x>
@@ -83,9 +83,9 @@
   <widget class="QPushButton" name="btnChosseFolder">
    <property name="geometry">
     <rect>
-     <x>308</x>
+     <x>240</x>
      <y>60</y>
-     <width>251</width>
+     <width>151</width>
      <height>23</height>
     </rect>
    </property>
@@ -93,17 +93,30 @@
     <string>Chọn thư mục hình ảnh </string>
    </property>
   </widget>
-  <widget class="QPushButton" name="btnGetImageFace">
+  <widget class="QPushButton" name="btnGetRealTimeFace">
    <property name="geometry">
     <rect>
-     <x>50</x>
+     <x>40</x>
      <y>60</y>
-     <width>252</width>
+     <width>171</width>
      <height>23</height>
     </rect>
    </property>
    <property name="text">
     <string>Chụp Ảnh trực tiếp </string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnLuuThongTin">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>60</y>
+     <width>141</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Lưu thông tin</string>
    </property>
   </widget>
  </widget>

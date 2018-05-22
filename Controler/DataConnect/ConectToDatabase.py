@@ -1,7 +1,5 @@
 import sqlite3
 from sqlite3 import Error
-
-
 def create_connection(db_file):
 
     try:
@@ -11,8 +9,6 @@ def create_connection(db_file):
         print(e)
 
     return None
-
-
 def GetAllNhanVien(conn):
     """
     Query all rows in the tasks table
@@ -26,8 +22,6 @@ def GetAllNhanVien(conn):
 
     for row in rows:
         print(row)
-
-
 def GetNhanVien(conn, MaNV):
     """
     Query tasks by priority
@@ -47,8 +41,6 @@ def GetLastIDNhanVien(conn):
     cur.execute("SELECT MaNV FROM NhanVien ORDER BY MaNV DESC limit 1")
     result = cur.fetchone();
     return result[0]
-
-
 def InsertNhanVien(conn,task):
 
 
@@ -63,8 +55,6 @@ def InsertNhanVien(conn,task):
     except Error as e:
         print(e)
         return 0
-
-
 def GetPhongBan(conn):
     cur=conn.cursor()
     query="Select * from PhongBan"
@@ -77,13 +67,9 @@ def GetChucVu(conn):
     cur.execute(query)
     rows=cur.fetchall()
     return rows
-
-
 def TaskNhanVien(Name,Sex,Tuoi,Address,Email,PhoneNumber,MaChucVu,MaPhongBan):
     Task=(Name,Sex,Tuoi,Address,Email,PhoneNumber,MaChucVu,MaPhongBan)
     return Task
-
-
 def UpdateNhanvien(conn,MaNv,Task):
     cur=conn.cursor()
     query="UPDATE NhanVien SET Name =?,Sex =?,Tuoi =?,Address = ?,Email = ?,PhoneNumber = ?,MaChucVu = ?, MaPhongBan = ? WHERE MaNV='"+str(MaNv)+"'; "
@@ -93,7 +79,6 @@ def UpdateNhanvien(conn,MaNv,Task):
     except Error as e:
         print(e)
         return 0
-
 def DeleteNhanVien(conn,MaNv):
     cur=conn.cursor()
     query="DELETE FROM NhanVien WHERE MaNV = ?;"
@@ -115,12 +100,7 @@ def getMaPhongBan(conn,TenPhongBan):
     cur.execute(query)
     result = cur.fetchone();
     return result[0]
-
-
-
 def main():
-
-
     # create a database connection
     conn = create_connection('DiemDanhDatabse.db')
     with conn:
@@ -128,6 +108,5 @@ def main():
         task=TaskNhanVien("Nguyễn Hữu Cường dsf","Nam","22","Nguyễn văn Quỳ quận 7","nnnnn","0123456789","1","1")
         print(InsertNhanVien(conn,task))
         GetAllNhanVien(conn)
-
 if __name__ == '__main__':
     main()

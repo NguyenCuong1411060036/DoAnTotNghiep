@@ -7,8 +7,7 @@ from PyQt5.QtWidgets import QMessageBox
 
 from Controler.DataConnect.ConectToDatabase import GetNhanVien, create_connection, GetAllNhanVien, GetPhongBan, \
     GetChucVu, TaskNhanVien, getMaChucVu, getMaPhongBan, InsertNhanVien, DeleteNhanVien, UpdateNhanvien
-
-
+MaNV=20
 class MyWindow(QtWidgets.QMainWindow):
     def __init__(self):
         super(MyWindow,self).__init__()
@@ -22,6 +21,7 @@ class MyWindow(QtWidgets.QMainWindow):
         self.btnThem.clicked.connect(self.ThemMoi)
         self.btnXoa.clicked.connect(self.XoaNhanVien)
         self.btnLuuLai.clicked.connect(self.SuaNhanVien)
+        self.MaNV=None
     def ShowListNhanVien(self):
         db = QSqlDatabase.addDatabase("QSQLITE")
         db.setDatabaseName("DataConnect/DiemDanhDatabse.db")
@@ -128,9 +128,6 @@ class MyWindow(QtWidgets.QMainWindow):
          self.txtEmail.setText("")
     def ThemMoi(self):
         KiemTra=self.CheckForm()
-
-
-
         if(KiemTra==0):
             print("Bạn Phải nhập đây đủ thông tin ")
         else:
@@ -192,13 +189,9 @@ class MyWindow(QtWidgets.QMainWindow):
             print("Bạn phải chọn nhân viên cần xóa ")
 
         self.ShowListNhanVien()
-
-
 if __name__=='__main__':
     import sys;
     app=QtWidgets.QApplication(sys.argv)
     window=MyWindow()
     window.show()
-
-
     sys.exit(app.exec())
