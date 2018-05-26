@@ -1,120 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e6f9982d-30a2-4ec4-9cda-97b76b57a878" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Controler/Face_Recognition/LoadCamera.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Controler/Face_Recognition/TrainingData.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Controler/Face_Recognition/haarcascade_frontalface_default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Controler/GetFace_Image.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Controler/tets.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/Hinhmau.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/User.2.1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/User.2.10 - Copy.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/User.2.10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/User.2.11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/User.2.12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/User.2.13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/User.2.14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/User.2.15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/User.2.16 - Copy.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/User.2.16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/User.2.17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/User.2.18.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/User.2.19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/User.2.2 - Copy.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/User.2.2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/User.2.20.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/User.2.21.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/User.2.22.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/User.2.23.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/User.2.24.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/User.2.25.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/User.2.26.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/User.2.27.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/User.2.28 - Copy.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/User.2.28.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/User.2.29.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/User.2.3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/User.2.30.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/User.2.4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/User.2.5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/User.2.6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/User.2.7 - Copy.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/User.2.7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/User.2.8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/User.2.9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/billgate.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/download (1) - Copy.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/download (1).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/download (2).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/download (3).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/download.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/images (1).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/images (10).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/images (11).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/images (12).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/images (13).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/images (14) - Copy.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/images (14).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/images (15) - Copy.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/images (15).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/images (16).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/images (17).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/images (18).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/images (19).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/images (2).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/images (20).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/images (21) - Copy.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/images (21).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/images (22).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/images (23).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/images (24).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/images (25).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/images (26).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/images (27).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/images (28).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/images (29) - Copy.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/images (29).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/images (3).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/images (30).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/images (31).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/images (32).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/images (33).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/images (34).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/images (35).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/images (36).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/images (37).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/images (38) - Copy.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/images (38).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/images (39) - Copy.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/images (39).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/images (4).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/images (40).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/images (41).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/images (42).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/images (43).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/images (44).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/images (45).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/images (46).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/images (47).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/images (5).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/images (6).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/images (7) - Copy.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/images (7).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/images (8).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/images (9) - Copy.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/images (9).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/images.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/obama2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSet/Image/scrape_14641671772808_5-1464164400329.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/DoAnTotNghiep.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DoAnTotNghiep.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controler/DataConnect/ConectToDatabase.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/DataConnect/ConectToDatabase.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controler/Gui/LayHinhAnh.ui" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Gui/LayHinhAnh.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controler/MainFrom.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/MainFrom.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controler/Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Test.py" afterDir="false" />
-    </list>
+    <list default="true" id="e6f9982d-30a2-4ec4-9cda-97b76b57a878" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -466,7 +353,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.24304539" />
       <window_info anchor="bottom" id="TODO" order="6" />
