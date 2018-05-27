@@ -1,5 +1,6 @@
 import sqlite3
 from sqlite3 import Error
+import datetime
 def create_connection(db_file):
 
     try:
@@ -31,24 +32,17 @@ def GetNhanVien(conn, MaNV):
     """
     cur = conn.cursor()
     cur.execute("SELECT * FROM NhanVien WHERE MaNV=?", (MaNV,))
-
     rows = cur.fetchall()
-
-    for row in rows:
-        print(row)
+    return rows
 def GetLastIDNhanVien(conn):
     cur=conn.cursor();
     cur.execute("SELECT MaNV FROM NhanVien ORDER BY MaNV DESC limit 1")
     result = cur.fetchone();
     return result[0]
 def InsertNhanVien(conn,task):
-
-
     cur = conn.cursor()
-
     cmd = "INSERT INTO NhanVien (Name,Sex,Tuoi,Address,Email,PhoneNumber,MaChucVu, MaPhongBan)VALUES (?,?,?,?,?,?,?,?);"
     try:
-
         cur.execute(cmd, task)
         print("them thanh cong")
         return 1
@@ -100,13 +94,24 @@ def getMaPhongBan(conn,TenPhongBan):
     cur.execute(query)
     result = cur.fetchone();
     return result[0]
+def InsertDiemDanh(conn,MaNV):
+    cur = conn.cursor()
+    now = datetime.datetime.now()
+    CurentDate = str(now.day) + "/" + str(now.month) + "/" + str(now.year)
+    CurentTime = str(now.hour) + ":" + str(now.minute) + ":" + str(now.second)
+    cmd = "INSERT INTO DiemDanh (Ngay,MaNV,Gio)VALUES ('"+CurentDate+"','"+str(MaNV)+"','"+CurentTime+"');"
+    try:
+        cur.execute(cmd)
+        print("them thanh cong")
+        return 1
+    except Error as e:
+        print(e)
+        return 0
 def main():
     # create a database connection
     conn = create_connection('DiemDanhDatabse.db')
     with conn:
-        print("4 .Thêm mới một nhân viên :")
-        task=TaskNhanVien("Nguyễn Hữu Cường dsf","Nam","22","Nguyễn văn Quỳ quận 7","nnnnn","0123456789","1","1")
-        print(InsertNhanVien(conn,task))
-        GetAllNhanVien(conn)
+        result=InsertDiemDanh(conn,20)
+        print(result)
 if __name__ == '__main__':
     main()
