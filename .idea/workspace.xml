@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e6f9982d-30a2-4ec4-9cda-97b76b57a878" name="Default" comment="" />
+    <list default="true" id="e6f9982d-30a2-4ec4-9cda-97b76b57a878" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/Controler/QuanLyChucVu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Controler/QuanLyPhongBan.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controler/DataConnect/ConectToDatabase.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/DataConnect/ConectToDatabase.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controler/DataConnect/DiemDanhDatabse.db" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/DataConnect/DiemDanhDatabse.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controler/Face_recog.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_recog.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controler/GetFace_Image.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/GetFace_Image.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controler/MainFrom.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/MainFrom.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controler/Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Test.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,50 +27,74 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GetFace_Image.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GetFace_Image.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Controler/GetFace_Image.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="135" column="24" lean-forward="true" selection-start-line="135" selection-start-column="24" selection-end-line="135" selection-end-column="24" />
+            <state relative-caret-position="105">
+              <caret line="111" lean-forward="true" selection-start-line="111" selection-end-line="111" />
               <folding>
-                <element signature="e#442#5551#0" />
-                <element signature="e#475#1085#0" />
-                <element signature="e#1207#1393#0" />
-                <element signature="e#807#1071#0" />
-                <element signature="e#1220#1436#0" />
-                <element signature="e#1716#2116#0" />
-                <element signature="e#2246#2642#0" />
-                <element signature="e#2190#2358#0" />
-                <element signature="e#1288#1742#0" />
-                <element signature="e#1840#2045#0" />
-                <element signature="e#3548#4114#0" />
-                <element signature="e#4229#4605#0" />
-                <element signature="e#4694#5551#0" />
+                <element signature="e#0#30#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoadCamera.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Controler/Face_Recognition/LoadCamera.py">
+      <file leaf-file-name="QuanLyChucVu.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Controler/QuanLyChucVu.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="36" column="20" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
+            <state relative-caret-position="145">
+              <caret line="117" column="33" selection-start-line="117" selection-start-column="33" selection-end-line="117" selection-end-column="33" />
               <folding>
-                <element signature="e#1#14#0" expanded="true" />
-                <element signature="e#205#1273#0" />
+                <element signature="e#0#39#0" expanded="true" />
+                <element signature="e#3102#3342#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TrainingData.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Controler/Face_Recognition/TrainingData.py">
+      <file leaf-file-name="QuanLyPhongBan.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Controler/QuanLyPhongBan.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+            <state relative-caret-position="370">
+              <caret line="112" column="31" lean-forward="true" selection-start-line="93" selection-start-column="4" selection-end-line="112" selection-end-column="31" />
               <folding>
-                <element signature="e#1#15#0" expanded="true" />
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Controler/Test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="106" column="46" lean-forward="true" selection-start-line="106" selection-start-column="46" selection-end-line="106" selection-end-column="46" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConectToDatabase.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Controler/DataConnect/ConectToDatabase.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="143">
+              <caret line="141" column="4" selection-start-line="141" selection-start-column="4" selection-end-line="141" selection-end-column="4" />
+              <folding>
+                <element signature="e#0#14#0" expanded="true" />
+                <element signature="e#94#215#0" />
+                <element signature="e#246#481#0" />
+                <element signature="e#246#347#1" />
+                <element signature="e#515#757#0" />
+                <element signature="e#791#931#0" />
+                <element signature="e#1282#1397#0" />
+                <element signature="e#1423#1536#0" />
+                <element signature="e#2062#2246#0" />
+                <element signature="e#2284#2454#0" />
+                <element signature="e#2496#2674#0" />
+                <element signature="e#2710#3166#0" />
+                <element signature="e#3471#3562#0" />
               </folding>
             </state>
           </provider>
@@ -69,23 +103,33 @@
       <file leaf-file-name="MainFrom.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Controler/MainFrom.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+            <state relative-caret-position="117">
+              <caret line="150" column="26" selection-start-line="150" selection-start-column="26" selection-end-line="150" selection-end-column="26" />
               <folding>
                 <element signature="e#0#44#0" expanded="true" />
-                <element signature="e#488#1051#0" />
-                <element signature="e#1069#1744#0" />
-                <element signature="e#1781#1973#0" />
-                <element signature="e#2008#2196#0" />
-                <element signature="e#2242#2587#0" />
-                <element signature="e#2637#2996#0" />
-                <element signature="e#3047#4061#0" />
-                <element signature="e#4098#4892#0" />
-                <element signature="e#4927#5313#0" />
-                <element signature="e#5348#5520#0" />
-                <element signature="e#5552#6529#0" />
-                <element signature="e#6565#6893#0" />
-                <element signature="e#6929#8133#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Face_recog.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Controler/Face_recog.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="110" column="24" selection-start-line="110" selection-start-column="24" selection-end-line="110" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+                <element signature="e#343#1052#0" />
+                <element signature="e#1091#1221#0" />
+                <element signature="e#1250#1359#0" />
+                <element signature="e#1395#1473#0" />
+                <element signature="e#1509#1774#0" />
+                <element signature="e#1811#2069#0" />
+                <element signature="e#2119#2577#0" />
+                <element signature="e#2633#2977#0" />
+                <element signature="e#3017#4497#0" />
+                <element signature="e#4528#4970#0" />
+                <element signature="e#5000#5092#0" />
               </folding>
             </state>
           </provider>
@@ -105,7 +149,9 @@
       <find>txtChucVu</find>
       <find>txtPhongBan</find>
       <find>rows</find>
-      <find>3.46020772e-03, 0., 0., 0., 0., 0., 0., 1.73010379e-02,</find>
+      <find />
+      <find>PhongBan</find>
+      <find>InsertPhongBan</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -115,15 +161,18 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Controler/TestFuntion.py" />
-        <option value="$PROJECT_DIR$/Controler/DataConnect/ConectToDatabase.py" />
         <option value="$PROJECT_DIR$/Controler/Face_Recognition/test.py" />
         <option value="$PROJECT_DIR$/Controler/Gui/GetFace_Image.py" />
         <option value="$PROJECT_DIR$/Controler/Face_Recognition/TrainingData.py" />
-        <option value="$PROJECT_DIR$/Controler/MainFrom.py" />
         <option value="$PROJECT_DIR$/Controler/tets.txt" />
-        <option value="$PROJECT_DIR$/Controler/Test.py" />
         <option value="$PROJECT_DIR$/Controler/Face_Recognition/LoadCamera.py" />
         <option value="$PROJECT_DIR$/Controler/GetFace_Image.py" />
+        <option value="$PROJECT_DIR$/Controler/Test.py" />
+        <option value="$PROJECT_DIR$/Controler/DataConnect/ConectToDatabase.py" />
+        <option value="$PROJECT_DIR$/Controler/Face_recog.py" />
+        <option value="$PROJECT_DIR$/Controler/QuanLyPhongBan.py" />
+        <option value="$PROJECT_DIR$/Controler/MainFrom.py" />
+        <option value="$PROJECT_DIR$/Controler/QuanLyChucVu.py" />
       </list>
     </option>
   </component>
@@ -134,9 +183,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1346" />
+    <option name="width" value="768" />
     <option name="height" value="688" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -184,12 +231,18 @@
               <item name="DoAnTotNghiep" type="b2602c69:ProjectViewProjectNode" />
               <item name="DoAnTotNghiep" type="462c0819:PsiDirectoryNode" />
               <item name="Controler" type="462c0819:PsiDirectoryNode" />
-              <item name="Face_Recognition" type="462c0819:PsiDirectoryNode" />
+              <item name="Gui" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DoAnTotNghiep" type="b2602c69:ProjectViewProjectNode" />
               <item name="DoAnTotNghiep" type="462c0819:PsiDirectoryNode" />
               <item name="DataSet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DoAnTotNghiep" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DoAnTotNghiep" type="462c0819:PsiDirectoryNode" />
+              <item name="DataSet" type="462c0819:PsiDirectoryNode" />
+              <item name="Image" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -229,8 +282,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.GetFace_Image (1)">
-    <configuration name="GetFace_Image (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.MainFrom">
+    <configuration name="Face_recog" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DoAnTotNghiep" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -242,43 +295,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Controler/GetFace_Image.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="GetFace_Image" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="DoAnTotNghiep" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Controler/Gui" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\NguyenCuong\PycharmProjects\DoAnTotNghiep\Controler\GetFace_Image.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="LoadCamera" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="DoAnTotNghiep" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Controler/Face_Recognition" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Controler/Face_Recognition/LoadCamera.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Controler/Face_recog.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -296,8 +313,43 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Controler/MainFrom.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="QuanLyChucVu" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DoAnTotNghiep" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Controler" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Controler/QuanLyChucVu.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="QuanLyPhongBan" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DoAnTotNghiep" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Controler" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Controler/QuanLyPhongBan.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -322,19 +374,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.MainFrom" />
-      <item itemvalue="Python.LoadCamera" />
-      <item itemvalue="Python.GetFace_Image" />
-      <item itemvalue="Python.GetFace_Image (1)" />
       <item itemvalue="Python.Test" />
+      <item itemvalue="Python.Face_recog" />
+      <item itemvalue="Python.QuanLyPhongBan" />
+      <item itemvalue="Python.QuanLyChucVu" />
+      <item itemvalue="Python.MainFrom" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.GetFace_Image (1)" />
-        <item itemvalue="Python.Test" />
         <item itemvalue="Python.MainFrom" />
-        <item itemvalue="Python.LoadCamera" />
-        <item itemvalue="Python.GetFace_Image" />
+        <item itemvalue="Python.QuanLyChucVu" />
+        <item itemvalue="Python.QuanLyPhongBan" />
+        <item itemvalue="Python.Face_recog" />
+        <item itemvalue="Python.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -353,50 +405,29 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24304539" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24304539" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3290938" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="Python Console" order="8" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.36248013" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23847377" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32913387" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3990461" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.0063593006" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="SciView" order="4" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="right" id="Database" order="3" />
     </layout>
-    <layout-to-restore>
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24304539" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.36248013" />
-      <window_info anchor="bottom" id="Python Console" order="8" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3290938" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3990461" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32913387" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="4" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -413,7 +444,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Controler/DataConnect/ConectToDatabase.py</url>
-          <line>98</line>
+          <line>92</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -425,6 +456,56 @@
           <line>48</line>
           <option name="timeStamp" value="49" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Controler/DataConnect/ConectToDatabase.py</url>
+          <line>79</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Controler/QuanLyPhongBan.py</url>
+          <line>39</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Controler/QuanLyPhongBan.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Controler/QuanLyPhongBan.py</url>
+          <line>68</line>
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Controler/QuanLyPhongBan.py</url>
+          <line>69</line>
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Controler/QuanLyPhongBan.py</url>
+          <line>94</line>
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Controler/QuanLyPhongBan.py</url>
+          <line>95</line>
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Controler/QuanLyPhongBan.py</url>
+          <line>108</line>
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Controler/QuanLyPhongBan.py</url>
+          <line>103</line>
+          <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Controler/QuanLyPhongBan.py</url>
+          <line>101</line>
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -433,104 +514,16 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="51" />
+      <option name="time" value="103" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Controler/Face_Recognition/LoadCamera.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="52" column="34" selection-start-line="52" selection-start-column="34" selection-end-line="52" selection-end-column="34" />
-          <folding>
-            <element signature="e#1#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controler/MainFrom.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3366">
-          <caret line="198" column="40" selection-start-line="198" selection-start-column="40" selection-end-line="198" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#44#0" expanded="true" />
-            <element signature="e#488#1051#0" />
-            <element signature="e#1069#1744#0" />
-            <element signature="e#1781#1973#0" />
-            <element signature="e#2008#2196#0" />
-            <element signature="e#2242#2587#0" />
-            <element signature="e#2637#2996#0" />
-            <element signature="e#3047#4061#0" />
-            <element signature="e#4098#4892#0" />
-            <element signature="e#4927#5313#0" />
-            <element signature="e#5348#5520#0" />
-            <element signature="e#5552#6529#0" />
-            <element signature="e#6565#6893#0" />
-            <element signature="e#6929#8133#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controler/DataConnect/ConectToDatabase.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="72" column="33" selection-start-line="72" selection-start-column="33" selection-end-line="72" selection-end-column="33" />
-          <folding>
-            <element signature="e#78#199#0" />
-            <element signature="e#230#465#0" />
-            <element signature="e#499#767#0" />
-            <element signature="e#979#1268#0" />
-            <element signature="e#1296#1411#0" />
-            <element signature="e#1437#1550#0" />
-            <element signature="e#1634#1716#0" />
-            <element signature="e#1757#2040#0" />
-            <element signature="e#2076#2260#0" />
-            <element signature="e#2298#2468#0" />
-            <element signature="e#2510#2688#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controler/MainFrom.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#44#0" expanded="true" />
-            <element signature="e#488#1051#0" />
-            <element signature="e#1069#1744#0" />
-            <element signature="e#1781#1973#0" />
-            <element signature="e#2008#2196#0" />
-            <element signature="e#2242#2587#0" />
-            <element signature="e#2637#2996#0" />
-            <element signature="e#3047#4061#0" />
-            <element signature="e#4098#4892#0" />
-            <element signature="e#4927#5313#0" />
-            <element signature="e#5348#5520#0" />
-            <element signature="e#5552#6529#0" />
-            <element signature="e#6565#6893#0" />
-            <element signature="e#6929#8133#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Controler/MainFrom.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="200" column="17" selection-start-line="200" selection-start-column="17" selection-end-line="200" selection-end-column="17" />
           <folding>
             <element signature="e#0#44#0" expanded="true" />
-            <element signature="e#488#1051#0" />
-            <element signature="e#1069#1744#0" />
-            <element signature="e#1781#1973#0" />
-            <element signature="e#2008#2196#0" />
-            <element signature="e#2242#2587#0" />
-            <element signature="e#2637#2996#0" />
-            <element signature="e#3047#4061#0" />
-            <element signature="e#4098#4892#0" />
-            <element signature="e#4927#5313#0" />
-            <element signature="e#5348#5520#0" />
-            <element signature="e#5552#6529#0" />
-            <element signature="e#6565#6893#0" />
-            <element signature="e#6929#8133#0" />
           </folding>
         </state>
       </provider>
@@ -540,17 +533,19 @@
         <state relative-caret-position="255">
           <caret line="111" column="10" lean-forward="true" selection-start-line="111" selection-start-column="10" selection-end-line="111" selection-end-column="10" />
           <folding>
-            <element signature="e#78#199#0" />
-            <element signature="e#230#465#0" />
-            <element signature="e#499#767#0" />
-            <element signature="e#979#1268#0" />
-            <element signature="e#1296#1411#0" />
-            <element signature="e#1437#1550#0" />
-            <element signature="e#1634#1716#0" />
-            <element signature="e#1757#2040#0" />
-            <element signature="e#2076#2260#0" />
-            <element signature="e#2298#2468#0" />
-            <element signature="e#2510#2688#0" />
+            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#94#215#0" />
+            <element signature="e#246#481#0" />
+            <element signature="e#246#347#1" />
+            <element signature="e#515#757#0" />
+            <element signature="e#791#931#0" />
+            <element signature="e#1282#1397#0" />
+            <element signature="e#1423#1536#0" />
+            <element signature="e#2062#2246#0" />
+            <element signature="e#2284#2454#0" />
+            <element signature="e#2496#2674#0" />
+            <element signature="e#2710#3166#0" />
+            <element signature="e#3471#3562#0" />
           </folding>
         </state>
       </provider>
@@ -560,19 +555,6 @@
         <state>
           <folding>
             <element signature="e#0#44#0" expanded="true" />
-            <element signature="e#488#1051#0" />
-            <element signature="e#1069#1744#0" />
-            <element signature="e#1781#1973#0" />
-            <element signature="e#2008#2196#0" />
-            <element signature="e#2242#2587#0" />
-            <element signature="e#2637#2996#0" />
-            <element signature="e#3047#4061#0" />
-            <element signature="e#4098#4892#0" />
-            <element signature="e#4927#5313#0" />
-            <element signature="e#5348#5520#0" />
-            <element signature="e#5552#6529#0" />
-            <element signature="e#6565#6893#0" />
-            <element signature="e#6929#8133#0" />
           </folding>
         </state>
       </provider>
@@ -582,17 +564,19 @@
         <state relative-caret-position="1547">
           <caret line="130" selection-start-line="130" selection-end-line="130" />
           <folding>
-            <element signature="e#78#199#0" />
-            <element signature="e#230#465#0" />
-            <element signature="e#499#767#0" />
-            <element signature="e#979#1268#0" />
-            <element signature="e#1296#1411#0" />
-            <element signature="e#1437#1550#0" />
-            <element signature="e#1634#1716#0" />
-            <element signature="e#1757#2040#0" />
-            <element signature="e#2076#2260#0" />
-            <element signature="e#2298#2468#0" />
-            <element signature="e#2510#2688#0" />
+            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#94#215#0" />
+            <element signature="e#246#481#0" />
+            <element signature="e#246#347#1" />
+            <element signature="e#515#757#0" />
+            <element signature="e#791#931#0" />
+            <element signature="e#1282#1397#0" />
+            <element signature="e#1423#1536#0" />
+            <element signature="e#2062#2246#0" />
+            <element signature="e#2284#2454#0" />
+            <element signature="e#2496#2674#0" />
+            <element signature="e#2710#3166#0" />
+            <element signature="e#3471#3562#0" />
           </folding>
         </state>
       </provider>
@@ -609,17 +593,19 @@
         <state relative-caret-position="1258">
           <caret line="74" column="31" selection-start-line="74" selection-start-column="31" selection-end-line="74" selection-end-column="31" />
           <folding>
-            <element signature="e#78#199#0" />
-            <element signature="e#230#465#0" />
-            <element signature="e#499#767#0" />
-            <element signature="e#979#1268#0" />
-            <element signature="e#1296#1411#0" />
-            <element signature="e#1437#1550#0" />
-            <element signature="e#1634#1716#0" />
-            <element signature="e#1757#2040#0" />
-            <element signature="e#2076#2260#0" />
-            <element signature="e#2298#2468#0" />
-            <element signature="e#2510#2688#0" />
+            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#94#215#0" />
+            <element signature="e#246#481#0" />
+            <element signature="e#246#347#1" />
+            <element signature="e#515#757#0" />
+            <element signature="e#791#931#0" />
+            <element signature="e#1282#1397#0" />
+            <element signature="e#1423#1536#0" />
+            <element signature="e#2062#2246#0" />
+            <element signature="e#2284#2454#0" />
+            <element signature="e#2496#2674#0" />
+            <element signature="e#2710#3166#0" />
+            <element signature="e#3471#3562#0" />
           </folding>
         </state>
       </provider>
@@ -630,19 +616,6 @@
           <caret line="64" column="40" lean-forward="true" selection-start-line="64" selection-start-column="40" selection-end-line="64" selection-end-column="40" />
           <folding>
             <element signature="e#0#44#0" expanded="true" />
-            <element signature="e#488#1051#0" />
-            <element signature="e#1069#1744#0" />
-            <element signature="e#1781#1973#0" />
-            <element signature="e#2008#2196#0" />
-            <element signature="e#2242#2587#0" />
-            <element signature="e#2637#2996#0" />
-            <element signature="e#3047#4061#0" />
-            <element signature="e#4098#4892#0" />
-            <element signature="e#4927#5313#0" />
-            <element signature="e#5348#5520#0" />
-            <element signature="e#5552#6529#0" />
-            <element signature="e#6565#6893#0" />
-            <element signature="e#6929#8133#0" />
           </folding>
         </state>
       </provider>
@@ -659,17 +632,19 @@
         <state relative-caret-position="102">
           <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
           <folding>
-            <element signature="e#78#199#0" />
-            <element signature="e#230#465#0" />
-            <element signature="e#499#767#0" />
-            <element signature="e#979#1268#0" />
-            <element signature="e#1296#1411#0" />
-            <element signature="e#1437#1550#0" />
-            <element signature="e#1634#1716#0" />
-            <element signature="e#1757#2040#0" />
-            <element signature="e#2076#2260#0" />
-            <element signature="e#2298#2468#0" />
-            <element signature="e#2510#2688#0" />
+            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#94#215#0" />
+            <element signature="e#246#481#0" />
+            <element signature="e#246#347#1" />
+            <element signature="e#515#757#0" />
+            <element signature="e#791#931#0" />
+            <element signature="e#1282#1397#0" />
+            <element signature="e#1423#1536#0" />
+            <element signature="e#2062#2246#0" />
+            <element signature="e#2284#2454#0" />
+            <element signature="e#2496#2674#0" />
+            <element signature="e#2710#3166#0" />
+            <element signature="e#3471#3562#0" />
           </folding>
         </state>
       </provider>
@@ -682,17 +657,19 @@
         <state relative-caret-position="289">
           <caret line="20" column="46" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="46" />
           <folding>
-            <element signature="e#78#199#0" />
-            <element signature="e#230#465#0" />
-            <element signature="e#499#767#0" />
-            <element signature="e#979#1268#0" />
-            <element signature="e#1296#1411#0" />
-            <element signature="e#1437#1550#0" />
-            <element signature="e#1634#1716#0" />
-            <element signature="e#1757#2040#0" />
-            <element signature="e#2076#2260#0" />
-            <element signature="e#2298#2468#0" />
-            <element signature="e#2510#2688#0" />
+            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#94#215#0" />
+            <element signature="e#246#481#0" />
+            <element signature="e#246#347#1" />
+            <element signature="e#515#757#0" />
+            <element signature="e#791#931#0" />
+            <element signature="e#1282#1397#0" />
+            <element signature="e#1423#1536#0" />
+            <element signature="e#2062#2246#0" />
+            <element signature="e#2284#2454#0" />
+            <element signature="e#2496#2674#0" />
+            <element signature="e#2710#3166#0" />
+            <element signature="e#3471#3562#0" />
           </folding>
         </state>
       </provider>
@@ -728,89 +705,28 @@
     <entry file="file://$PROJECT_DIR$/Controler/Face_Recognition/haarcascade_frontalface_default.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/DataSet/ImageLibrary/User.2.1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controler/DataConnect/ConectToDatabase.py">
+    <entry file="file://$PROJECT_DIR$/DataSet/ImageLibrary/User.2.1.jpg" />
+    <entry file="file://$PROJECT_DIR$/Controler/User.1.1.jpg" />
+    <entry file="file://$PROJECT_DIR$/DataSet/ImageLibrary/User.1.1.jpg" />
+    <entry file="file://$PROJECT_DIR$/Controler/User.1.2.jpg" />
+    <entry file="file://$PROJECT_DIR$/Controler/User.1.100.jpg" />
+    <entry file="file://$PROJECT_DIR$/Controler/User.10.100.jpg" />
+    <entry file="file://$PROJECT_DIR$/Controler/User.10.99.jpg" />
+    <entry file="file://$PROJECT_DIR$/Controler/User.10.93.jpg" />
+    <entry file="file://$PROJECT_DIR$/Controler/User.10.91.jpg" />
+    <entry file="file://$PROJECT_DIR$/Controler/User.10.54.jpg" />
+    <entry file="file://$PROJECT_DIR$/Controler/User.10.52.jpg" />
+    <entry file="file://$PROJECT_DIR$/Controler/User.10.50.jpg" />
+    <entry file="file://$PROJECT_DIR$/Controler/User.10.49.jpg" />
+    <entry file="file://$PROJECT_DIR$/Controler/User.10.48.jpg" />
+    <entry file="file://$PROJECT_DIR$/Controler/User.10.1.jpg" />
+    <entry file="file://$PROJECT_DIR$/DataSet/ImageLibrary/User.None.12.jpg" />
+    <entry file="file://$PROJECT_DIR$/DataSet/ImageLibrary/User.None.15.jpg" />
+    <entry file="file://$PROJECT_DIR$/DataSet/ImageLibrary/User.None.98.jpg" />
+    <entry file="file://$PROJECT_DIR$/Controler/Face_Recognition/TrainingData.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="106" column="44" selection-start-line="106" selection-start-column="44" selection-end-line="106" selection-end-column="44" />
-          <folding>
-            <element signature="e#78#199#0" />
-            <element signature="e#230#465#0" />
-            <element signature="e#499#767#0" />
-            <element signature="e#979#1268#0" />
-            <element signature="e#1296#1411#0" />
-            <element signature="e#1437#1550#0" />
-            <element signature="e#1634#1716#0" />
-            <element signature="e#1757#2040#0" />
-            <element signature="e#2076#2260#0" />
-            <element signature="e#2298#2468#0" />
-            <element signature="e#2510#2688#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controler/User.1.1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataSet/ImageLibrary/User.1.1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controler/User.1.2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controler/User.1.100.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controler/User.10.100.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controler/User.10.99.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controler/User.10.93.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controler/User.10.91.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controler/User.10.54.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controler/User.10.52.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controler/User.10.50.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controler/User.10.49.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controler/User.10.48.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controler/User.10.1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataSet/ImageLibrary/User.None.12.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataSet/ImageLibrary/User.None.15.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataSet/ImageLibrary/User.None.98.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataSet/TrainerData/trainer.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="161567" column="68" selection-start-line="161567" selection-start-column="12" selection-end-line="161567" selection-end-column="68" />
-        </state>
-      </provider>
-      <provider editor-type-id="LargeFileEditor">
-        <state relative-caret-position="466336">
-          <caret line="182859" column="26" lean-forward="true" selection-start-line="182859" selection-start-column="26" selection-end-line="182859" selection-end-column="26" />
+        <state relative-caret-position="391">
+          <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -821,74 +737,112 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Controler/Test.py">
+    <entry file="file://$PROJECT_DIR$/Controler/Face_Recognition/LoadCamera.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="547">
+          <caret line="48" column="22" lean-forward="true" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataSet/ImageLibrary/User.20.11.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataSet/TrainerData/trainer.yml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/DataSet/ImageLibrary/User.20.91.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Controler/MainFrom.py">
+    <entry file="file://$PROJECT_DIR$/Controler/Face_recog.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        <state relative-caret-position="272">
+          <caret line="110" column="24" selection-start-line="110" selection-start-column="24" selection-end-line="110" selection-end-column="24" />
           <folding>
-            <element signature="e#0#44#0" expanded="true" />
-            <element signature="e#488#1051#0" />
-            <element signature="e#1069#1744#0" />
-            <element signature="e#1781#1973#0" />
-            <element signature="e#2008#2196#0" />
-            <element signature="e#2242#2587#0" />
-            <element signature="e#2637#2996#0" />
-            <element signature="e#3047#4061#0" />
-            <element signature="e#4098#4892#0" />
-            <element signature="e#4927#5313#0" />
-            <element signature="e#5348#5520#0" />
-            <element signature="e#5552#6529#0" />
-            <element signature="e#6565#6893#0" />
-            <element signature="e#6929#8133#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controler/Face_Recognition/LoadCamera.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="36" column="20" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
-          <folding>
-            <element signature="e#1#14#0" expanded="true" />
-            <element signature="e#205#1273#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controler/Face_Recognition/TrainingData.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
-          <folding>
-            <element signature="e#1#15#0" expanded="true" />
+            <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#343#1052#0" />
+            <element signature="e#1091#1221#0" />
+            <element signature="e#1250#1359#0" />
+            <element signature="e#1395#1473#0" />
+            <element signature="e#1509#1774#0" />
+            <element signature="e#1811#2069#0" />
+            <element signature="e#2119#2577#0" />
+            <element signature="e#2633#2977#0" />
+            <element signature="e#3017#4497#0" />
+            <element signature="e#4528#4970#0" />
+            <element signature="e#5000#5092#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Controler/GetFace_Image.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="135" column="24" lean-forward="true" selection-start-line="135" selection-start-column="24" selection-end-line="135" selection-end-column="24" />
+        <state relative-caret-position="105">
+          <caret line="111" lean-forward="true" selection-start-line="111" selection-end-line="111" />
           <folding>
-            <element signature="e#442#5551#0" />
-            <element signature="e#475#1085#0" />
-            <element signature="e#1207#1393#0" />
-            <element signature="e#807#1071#0" />
-            <element signature="e#1220#1436#0" />
-            <element signature="e#1716#2116#0" />
-            <element signature="e#2246#2642#0" />
-            <element signature="e#2190#2358#0" />
-            <element signature="e#1288#1742#0" />
-            <element signature="e#1840#2045#0" />
-            <element signature="e#3548#4114#0" />
-            <element signature="e#4229#4605#0" />
-            <element signature="e#4694#5551#0" />
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controler/MainFrom.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="150" column="26" selection-start-line="150" selection-start-column="26" selection-end-line="150" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controler/Test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="106" column="46" lean-forward="true" selection-start-line="106" selection-start-column="46" selection-end-line="106" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controler/DataConnect/ConectToDatabase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="141" column="4" selection-start-line="141" selection-start-column="4" selection-end-line="141" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#94#215#0" />
+            <element signature="e#246#481#0" />
+            <element signature="e#246#347#1" />
+            <element signature="e#515#757#0" />
+            <element signature="e#791#931#0" />
+            <element signature="e#1282#1397#0" />
+            <element signature="e#1423#1536#0" />
+            <element signature="e#2062#2246#0" />
+            <element signature="e#2284#2454#0" />
+            <element signature="e#2496#2674#0" />
+            <element signature="e#2710#3166#0" />
+            <element signature="e#3471#3562#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controler/QuanLyPhongBan.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="112" column="31" lean-forward="true" selection-start-line="93" selection-start-column="4" selection-end-line="112" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controler/QuanLyChucVu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="117" column="33" selection-start-line="117" selection-start-column="33" selection-end-line="117" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#3102#3342#0" />
           </folding>
         </state>
       </provider>

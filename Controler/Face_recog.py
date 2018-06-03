@@ -81,7 +81,7 @@ class MyWindow(QtWidgets.QMainWindow):
                 self.count+=1
                 self.completed += 100 / self.default
             else:
-                self.face_ID = self.MaNV
+                self.face_ID = self.MaNV[0]
                 self.Count = 0
                 self.completed = 0
 
@@ -97,6 +97,8 @@ class MyWindow(QtWidgets.QMainWindow):
                 self.txtMaNV.setText(str(row[0]))
                 time = QTime.currentTime().toString()
                 self.txtTime.setText(time)
+                self.progress.setValue(100)
+                self.lbWaitting.setText("Xin Cám Ơn")
                 with self.Conn:
                     InsertDiemDanh(self.Conn,self.MaNV[0])
                 self.face_enable=False
@@ -105,8 +107,7 @@ class MyWindow(QtWidgets.QMainWindow):
                 self.txtPhong.setText("Unknow")
                 self.txtMaNV.setText("Unknow")
         self.progress.setValue(self.completed)
-        if self.completed >= 100:
-            self.lbWaitting.setText("Xin Cám Ơn")
+        if self.lbWaitting.text() == "Xin Cám Ơn":
             self.ReSet()
     def ReSet(self):
         self.completed2 = 0
@@ -127,4 +128,4 @@ if __name__=='__main__':
     app=QtWidgets.QApplication(sys.argv)
     window=MyWindow()
     window.show()
-    sys.exit(app.exec())
+sys.exit(app.exec())

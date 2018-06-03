@@ -7,7 +7,7 @@ from PyQt5.QtWidgets import QMessageBox
 
 from Controler.DataConnect.ConectToDatabase import GetNhanVien, create_connection, GetAllNhanVien, GetPhongBan, \
     GetChucVu, TaskNhanVien, getMaChucVu, getMaPhongBan, InsertNhanVien, DeleteNhanVien, UpdateNhanvien
-MaNV=20
+MaNV=23
 class MyWindow(QtWidgets.QMainWindow):
     def __init__(self):
         super(MyWindow,self).__init__()
@@ -155,8 +155,6 @@ class MyWindow(QtWidgets.QMainWindow):
             with conn:
                 DeleteNhanVien(conn, MaNV)
                 self.ClearForm()
-
-
         else:
             print("Bạn phải chọn nhân viên cần xóa ")
 

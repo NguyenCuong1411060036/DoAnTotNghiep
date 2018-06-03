@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FormPhongBan</class>
+ <widget class="QWidget" name="FormPhongBan">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>761</width>
+    <height>516</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Quản Lý Phòng Ban</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>311</width>
+     <height>471</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Chi tiết Phòng Ban</string>
+   </property>
+   <widget class="QPushButton" name="btnThemPhong">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>360</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Thêm Phòng</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnCapNhat">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>360</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Cập Nhật</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>50</y>
+      <width>91</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Mã Phòng Ban :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>100</y>
+      <width>91</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Tên Phòng Ban: </string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txtTenPhongban">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>100</y>
+      <width>211</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="txtMaPhongBan">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>50</y>
+      <width>91</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>MAPB</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>160</y>
+      <width>91</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Mô Tả : </string>
+    </property>
+   </widget>
+   <widget class="QPlainTextEdit" name="txtMoTa">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>160</y>
+      <width>211</width>
+      <height>181</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QTableView" name="TablePhongBan">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>20</y>
+     <width>411</width>
+     <height>471</height>
+    </rect>
+   </property>
+  </widget>
+  <zorder>TablePhongBan</zorder>
+  <zorder>groupBox</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

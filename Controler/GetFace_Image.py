@@ -104,10 +104,8 @@ class MyWindow(QtWidgets.QMainWindow):
         faces, ids = self.getImagesAndLabels(path)
         self.recognizer.train(faces, np.array(ids))
         self.recognizer.save('../DataSet/TrainerData/trainer.yml')
-        # xoa hinh anh ngay ki training xong
-        imagePaths = [os.path.join(path, f) for f in os.listdir(path)]
-        for path in imagePaths:
-            os.remove(path)
+        
+
     def GetImageLocation(self,id,path):
         count = 0
         imagePaths = [os.path.join(path, f) for f in os.listdir(path)]

@@ -107,11 +107,57 @@ def InsertDiemDanh(conn,MaNV):
     except Error as e:
         print(e)
         return 0
+def InsertPhongBan(conn,task):
+    cur = conn.cursor()
+    cmd = "INSERT INTO PhongBan (TenPhongBan,MoTa)VALUES (?,?);"
+    try:
+        cur.execute(cmd, task)
+        print("them thanh cong")
+        return 1
+    except Error as e:
+        print(e)
+        return 0
+def TaskPhongBan(TenPhong,MoTa):
+    Task = (TenPhong,MoTa)
+    return Task
+def UpdatePhongBan(conn,MaPhongBan,Task):
+    cur=conn.cursor()
+    query="UPDATE PhongBan SET TenPhongBan = ?,MoTa = ? WHERE MaPhongBan = '"+str(MaPhongBan)+"'; "
+    try:
+        cur.execute(query,Task)
+        return 1
+    except Error as e:
+        print(e)
+        return 0
+def InsertChucVu(conn,task):
+    cur = conn.cursor()
+    cmd = "INSERT INTO ChucVu (TenChucVu,HeSoLuong,PhuCap)VALUES (?,?,?);"
+    try:
+        cur.execute(cmd, task)
+        print("them thanh cong")
+        return 1
+    except Error as e:
+        print(e)
+        return 0
+def TaskChucVu(TenChucVu,HeSoLuong,PhuCap):
+    Task = (TenChucVu,HeSoLuong,PhuCap)
+    return Task
+def UpdateChucVu(conn,MaChucVu,Task):
+    cur=conn.cursor()
+    query="UPDATE ChucVu SET TenChucVu = ?,HeSoLuong = ?,PhuCap = ? WHERE MaChucVu = '"+str(MaChucVu)+"'; "
+    try:
+        cur.execute(query,Task)
+        return 1
+    except Error as e:
+        print(e)
+        return 0
+
 def main():
     # create a database connection
     conn = create_connection('DiemDanhDatabse.db')
+    task=TaskPhongBan('a','qwsc')
     with conn:
-        result=InsertDiemDanh(conn,20)
+        result = UpdatePhongBan(conn,1,task)
         print(result)
 if __name__ == '__main__':
     main()
