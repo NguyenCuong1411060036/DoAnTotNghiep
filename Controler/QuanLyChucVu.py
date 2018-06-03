@@ -4,10 +4,11 @@ from Controler.DataConnect.ConectToDatabase import GetNhanVien, create_connectio
 from PyQt5 import QtWidgets,uic
 from PyQt5.QtSql import QSqlDatabase, QSqlQueryModel
 
-
-class MyWindow(QtWidgets.QMainWindow):
-    def __init__(self):
-        super(MyWindow, self).__init__()
+TestQDialog = uic.loadUiType("Gui/QuanLyChucVu.ui")[0]
+class MyWindow(QtWidgets.QDialog):
+    def __init__(self, parent=None):
+        super(MyWindow, self).__init__(parent)
+        #self.resize(300, 200)
         uic.loadUi('Gui/QuanLyChucVu.ui', self)
         self.setWindowTitle('Quản Lý Chức Vụ')
         self.TableChucVu.setSelectionBehavior(QtWidgets.QAbstractItemView.SelectRows)
@@ -111,12 +112,9 @@ class MyWindow(QtWidgets.QMainWindow):
                         mes = "Đã Cập nhật  thành công"
                         self.showQMessageBox(mes)
                         self.ClearFrom()
-
             else:
                 self.ShowWarning("Vui lòng nhập đầy đủ thông tin")
-
             self.ShowListChucVu()
-
         else:
             self.ShowWarning("Vui Lòng chọn Chức vụ cần cập nhật !!!")
 
@@ -125,4 +123,5 @@ if __name__=='__main__':
     app=QtWidgets.QApplication(sys.argv)
     window=MyWindow()
     window.show()
+    window.raise_()
     sys.exit(app.exec())

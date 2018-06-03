@@ -1,13 +1,15 @@
 from PyQt5 import QtCore,QtGui,QtWidgets,uic
-from PyQt5.QtCore import QBasicTimer
-from PyQt5.QtSql import QSqlQueryModel,QSqlDatabase,QSqlQuery
-import sys
+from Controler.QuanLyChucVu import MyWindow as QuanLyChucVu
+from PyQt5.QtSql import QSqlQueryModel,QSqlDatabase
+from PyQt5.QtWidgets import QMessageBox, QDialog
+from subprocess import Popen
 
-from PyQt5.QtWidgets import QMessageBox
+
 
 from Controler.DataConnect.ConectToDatabase import GetNhanVien, create_connection, GetAllNhanVien, GetPhongBan, \
     GetChucVu, TaskNhanVien, getMaChucVu, getMaPhongBan, InsertNhanVien, DeleteNhanVien, UpdateNhanvien
 MaNV=23
+p=None
 class MyWindow(QtWidgets.QMainWindow):
     def __init__(self):
         super(MyWindow,self).__init__()
@@ -20,6 +22,9 @@ class MyWindow(QtWidgets.QMainWindow):
         self.TableNhanVien.clicked.connect(self.GetNhanVienFromTable)
         self.btnThem.clicked.connect(self.ThemMoi)
         self.btnXoa.clicked.connect(self.XoaNhanVien)
+        self.btnDiemDanh.clicked.connect(self.DiemDanh)
+        self.btnQuanLyPhongBan.clicked.connect(self.QuanLyPhongBan)
+        self.btnQuanLyChucVu.clicked.connect(self.QuanLyChucVu)
         self.btnLuuLai.clicked.connect(self.SuaNhanVien)
         self.MaNV=None
     def ShowListNhanVien(self):
@@ -146,8 +151,11 @@ class MyWindow(QtWidgets.QMainWindow):
                 DienThoai=self.txtSoDienThoai.text()
                 task=TaskNhanVien(tenNhanVien,gioitinh,tuoi,DiaChi,Email,DienThoai,MaChucVu,MaPhongBan)
                 InsertNhanVien(conn,task)
+
+
         self.ClearForm()
         self.ShowListNhanVien()
+
     def XoaNhanVien(self):
         MaNV=self.LbMaNhanVien.text()
         if(MaNV.strip()):
@@ -157,7 +165,6 @@ class MyWindow(QtWidgets.QMainWindow):
                 self.ClearForm()
         else:
             print("Bạn phải chọn nhân viên cần xóa ")
-
         self.ShowListNhanVien()
     def SuaNhanVien(self):
         MaNV = self.LbMaNhanVien.text()
@@ -168,7 +175,6 @@ class MyWindow(QtWidgets.QMainWindow):
                     tenNhanVien = self.txtHoTen.text()
                     tuoi = self.txtTuoi.value()
                     gioitinh = self.txtGioiTinh.currentText()
-                    dienthoai = self.txtSoDienThoai.text()
                     chucvu = self.txtChucVu.currentText()
                     MaChucVu = getMaChucVu(conn, chucvu)
                     phongban = self.txtPhongBan.currentText()
@@ -187,6 +193,15 @@ class MyWindow(QtWidgets.QMainWindow):
             print("Bạn phải chọn nhân viên cần xóa ")
 
         self.ShowListNhanVien()
+    def DiemDanh(self):
+        Popen('python Face_recog.py')
+    def QuanLyPhongBan(self):
+        Popen('python QuanLyPhongBan.py')
+    def QuanLyChucVu(self):
+        Popen("python QuanLyChucVu.py")
+
+        print("abc")
+
 if __name__=='__main__':
     import sys;
     app=QtWidgets.QApplication(sys.argv)

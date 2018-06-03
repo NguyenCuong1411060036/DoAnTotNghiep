@@ -1,130 +1,145 @@
-import cv2
-import datetime
+from PyQt5.QtWidgets import QMessageBox
+from Controler.DataConnect.ConectToDatabase import GetNhanVien, create_connection, InsertPhongBan, TaskPhongBan, \
+    UpdatePhongBan
 from PyQt5 import QtWidgets,uic
-from PyQt5.QtCore import QTimer, QTime
-from PyQt5.QtGui import QImage, QPixmap
-from Controler.DataConnect.ConectToDatabase import GetNhanVien, create_connection, InsertDiemDanh
-from Controler.MainFrom import MaNV
-class MyWindow(QtWidgets.QMainWindow):
-    def __init__(self):
-        super(MyWindow,self).__init__()
-        uic.loadUi('Gui/DiemDanh.ui',self)
-        self.setWindowTitle('Chỉnh sửa thông tin ')
-        self.image = None
-        self.StartWebCam()
-        self.Tick()
-        self.now = datetime.datetime.now()
-        self.ShowCurentDate()
-        self.Conn=None
-        self.face_enable=True
-        self.MaNV=MaNV
-        self.count=0
-        self.ImagePath=None
-        self.face_ID = None
-        self.Profile=None
-        self.Count=0
-        self.face_detector = cv2.CascadeClassifier('Face_Recognition/haarcascade_frontalface_default.xml')
-        self.recognizer = cv2.face.LBPHFaceRecognizer_create()
-        self.recognizer.read('../DataSet/TrainerData/trainer.yml')
-    def ShowCurentDate(self):
-        Curentdate=str(self.now.day) + "/" + str(self.now.month) + "/" + str(self.now.year)
-        self.txtCurentDate.setText(Curentdate)
-    def Tick(self):
-        self.timer = QTimer(self)
-        self.timer.timeout.connect(self.update_Time)
-        self.timer.start(1000)
-    def update_Time(self):
-        time = QTime.currentTime().toString()
-        self.txtCurentTime.setText(time)
-    def StartWebCam(self):
-        self.video_cam = cv2.VideoCapture(0)
-        self.video_cam.set(cv2.CAP_PROP_FRAME_HEIGHT,331)
-        self.video_cam.set(cv2.CAP_PROP_FRAME_WIDTH,521)
-        self.timer=QTimer(self)
-        self.timer.timeout.connect(self.update_frame)
-        self.timer.start(5)
-    def update_frame(self):
-        ret,self.image = self.video_cam.read()
-        self.image=cv2.flip(self.image,1)
-        self.displayImage(self.image,1)
-        if (self.face_enable):
+from PyQt5.QtSql import QSqlDatabase, QSqlQueryModel
+import sys
+from PyQt5 import uic, QtWidgets, QtCore
+from PyQt5.QtWidgets import QDialog
 
-            detected_image = self.detect_face(self.image)
-            self.displayImage(detected_image,1)
-    def displayImage(self,img,window=1):
-        qfromat= QImage.Format_Indexed8
-        if len(img.shape)==3:
-            if img.shape[2] == 4 :
-                qfromat=QImage.Format_RGBA8888
-            else:
-                qfromat=QImage.Format_RGB888
-        outImage=QImage(img,img.shape[1],img.shape[0],img.strides[0],qfromat)
-        outImage=outImage.rgbSwapped()
-        if window==1:
-            self.lbImage.setPixmap(QPixmap.fromImage(outImage))
-            self.lbImage.setScaledContents(True)
-    def detect_face(self,image_frame):
-                gray = cv2.cvtColor(image_frame, cv2.COLOR_BGR2GRAY)
-                faces = self.face_detector.detectMultiScale(gray, 1.3, 5)
-                for (x, y, w, h) in faces:
-                    cv2.rectangle(image_frame, (x, y), (x + w, y + h), (255, 0, 0), 2)
-                    self.DiemDanh(gray[y:y+h,x:x+w])
-                return image_frame
-    def DiemDanh(self,GrayID):
-        self.MaNV=self.recognizer.predict(GrayID)
-        if self.face_ID==None :
-            self.face_ID = self.MaNV[0]
-            self.completed = 0
-            self.default= 50
+def main():
+    app = QtWidgets.QApplication(sys.argv)
+    myWindow = MyWindowClass()
+    myWindow.show()
+    app.exec_()
+
+main_dialog = uic.loadUiType("Gui/QuanLyChucVu.ui")[0]
+
+TestQDialog = uic.loadUiType("Gui/QuanLyPhongBan.ui")[0]
+
+class QDialogClass(QtWidgets.QMainWindow, TestQDialog):
+    def __init__(self, parent=None):
+        QtWidgets.QDialog.__init__(self, parent)
+        self.setupUi(self)
+        self.setWindowTitle('Quản Lý Phòng Ban')
+        self.TablePhongBan.setSelectionBehavior(QtWidgets.QAbstractItemView.SelectRows)
+        self.ShowListPhongBan()
+        self.DataBase = "DataConnect/DiemDanhDatabse.db"
+        self.Conn = create_connection(self.DataBase)
+        self.btnThemPhong.clicked.connect(self.ThemPhongBan)
+        self.btnCapNhat.clicked.connect(self.SuaPhongBan)
+
+    def ShowListPhongBan(self):
+        db = QSqlDatabase.addDatabase("QSQLITE")
+        db.setDatabaseName("DataConnect/DiemDanhDatabse.db")
+        db.open()
+        query = "select MaPhongBan as [Mã Phòng Ban] , TenPhongBan as [Tên Phòng Ban], MoTa as [Mô tả ] from PhongBan"
+        projectModel = QSqlQueryModel()
+        projectModel.setQuery(
+            query,
+            db)
+        self.TablePhongBan.setModel(projectModel)
+        self.TablePhongBan.show()
+        self.TablePhongBan.clicked.connect(self.GetPhongBanFromTable)
+
+    def GetPhongBanFromTable(self, index):
+        projectModel = self.TablePhongBan.model()
+        row = index.row()
+        MaPhongBan = (projectModel.index(row, 0)).data()
+        TenPhongBan = (projectModel.index(row, 1)).data()
+        MoTa = (projectModel.index(row, 2)).data()
+        self.txtMaPhongBan.setText(str(MaPhongBan))
+        self.txtTenPhongban.setText(str(TenPhongBan))
+        self.txtMoTa.clear()
+        self.txtMoTa.appendPlainText(str(MoTa))
+
+    def ThemPhongBan(self):
+        Check = self.CheckForm()
+        if Check == 1:
+            TenPhong = self.txtTenPhongban.text()
+            MoTa = self.txtMoTa.toPlainText()
+            with self.Conn:
+
+                task = TaskPhongBan(str(TenPhong), str(MoTa))
+                Result = InsertPhongBan(self.Conn, task)
+                if Result == 0:
+                    mes = "Tên Phòng ban đã tồn tại "
+                    self.ShowWarning(mes)
+                    self.txtTenPhongban.setText("")
+                else:
+                    mes = "Đã thêm thành công"
+                    self.showQMessageBox(mes)
+                    self.ClearFrom()
+
         else:
-            if self.MaNV[0] == self.face_ID:
-                self.count+=1
-                self.completed += 100 / self.default
-            else:
-                self.face_ID = self.MaNV
-                self.Count = 0
-                self.completed = 0
+            self.ShowWarning("Vui lòng nhập đầy đủ thông tin")
 
+        self.ShowListPhongBan()
 
-        if self.count >= self.default:
-            self.Conn=create_connection('DataConnect/DiemDanhDatabse.db')
-            self.Profile=GetNhanVien(self.Conn,self.MaNV[0])
-            if self.Profile != None:
-                for row in self.Profile:
-                    print(row)
-                self.txtTen.setText(row[1])
-                self.txtPhong.setText(str(row[8]))
-                self.txtMaNV.setText(str(row[0]))
-                time = QTime.currentTime().toString()
-                self.txtTime.setText(time)
-                with self.Conn:
-                    InsertDiemDanh(self.Conn,self.MaNV[0])
-                self.face_enable=False
-            else:
-                self.txtTen.setText("Unknow")
-                self.txtPhong.setText("Unknow")
-                self.txtMaNV.setText("Unknow")
-        self.progress.setValue(self.completed)
-        if self.completed >= 100:
-            self.lbWaitting.setText("Xin Cám Ơn")
-            self.ReSet()
-    def ReSet(self):
-        self.completed2 = 0
-        while self.completed2 < 100:
-            self.completed2 += 0.0001
-            self.progressReset.setValue(self.completed2)
-        self.face_ID=None
-        self.txtTen.setText("")
-        self.txtPhong.setText("")
-        self.txtMaNV.setText("")
-        self.count=0
-        self.txtTime.setText("")
-        self.lbWaitting.setText("Chờ xíu")
-        self.face_enable=True
-        self.progressReset.setValue(0)
-if __name__=='__main__':
-    import sys;
-    app=QtWidgets.QApplication(sys.argv)
-    window=MyWindow()
-    window.show()
-sys.exit(app.exec())
+    def CheckForm(self):
+
+        tenPhongBan = self.txtTenPhongban.text()
+        MoTa = self.txtMoTa.toPlainText()
+
+        if (tenPhongBan.strip() and MoTa.strip()):
+            return 1
+        else:
+            return 0
+
+    def ClearFrom(self):
+        self.txtMaPhongBan.setText("")
+        self.txtTenPhongban.setText("")
+        self.txtMoTa.clear()
+
+    def ShowWarning(self, Mes):
+        self.msg = QMessageBox()
+        self.msg.setIcon(QMessageBox.Warning)
+        self.msg.setText(str(Mes))
+        self.msg.setWindowTitle("Cảnh Báo")
+        self.msg.setStandardButtons(QMessageBox.Ok)
+        self.msg.show()
+
+    def showQMessageBox(self, Mes):
+        self.msg = QMessageBox()
+        self.msg.setIcon(QMessageBox.Information)
+        self.msg.setText(str(Mes))
+        self.msg.setWindowTitle("Thông Báo")
+        self.msg.setStandardButtons(QMessageBox.Ok)
+        self.msg.show()
+
+    def SuaPhongBan(self):
+        MaPhongBan = self.txtMaPhongBan.text()
+        if (MaPhongBan.strip()):
+            TenPhong = self.txtTenPhongban.text()
+            MoTa = self.txtMoTa.toPlainText()
+            with self.Conn:
+                task = TaskPhongBan(str(TenPhong), str(MoTa))
+                Result = UpdatePhongBan(self.Conn, MaPhongBan, task)
+                if Result == 0:
+                    mes = "Tên Phòng ban đã tồn tại "
+                    self.ShowWarning(mes)
+                    self.txtTenPhongban.setText("")
+                else:
+                    mes = "Đã Cập nhật  thành công"
+                    self.showQMessageBox(mes)
+                    self.ClearFrom()
+
+        else:
+            self.ShowWarning("Vui lòng nhập đầy đủ thông tin")
+        self.ShowListPhongBan()
+
+class MyWindowClass(QtWidgets.QMainWindow, main_dialog):
+    def __init__(self, parent=None):
+        QtWidgets.QMainWindow.__init__(self, parent)
+        self.setupUi(self)
+        self.btnThemChucVu.clicked.connect(self.dialog)
+
+    def dialog(self):
+        app = QtWidgets.QApplication(sys.argv)
+        dialog = QDialog()
+        dialog.ui = QDialogClass()
+        dialog.ui.setupUi(dialog)
+        dialog.exec_()
+
+if __name__ == "__main__":
+    main()

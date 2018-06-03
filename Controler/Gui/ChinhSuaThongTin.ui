@@ -400,7 +400,7 @@
      <string>Xem bảng chấm công </string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_2">
+   <widget class="QPushButton" name="btnDiemDanh">
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -413,7 +413,7 @@
      <string>Điểm Danh Nhân viên </string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_3">
+   <widget class="QPushButton" name="btnQuanLyChucVu">
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -465,7 +465,7 @@
      <string>Trợ giúp phần mềm</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_7">
+   <widget class="QPushButton" name="btnQuanLyPhongBan">
     <property name="geometry">
      <rect>
       <x>10</x>
