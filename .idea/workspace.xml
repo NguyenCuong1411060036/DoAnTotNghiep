@@ -2,12 +2,118 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6f9982d-30a2-4ec4-9cda-97b76b57a878" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controler/DataConnect/ConectToDatabase.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/DataConnect/ConectToDatabase.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controler/DataConnect/DiemDanhDatabse.db" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/DataConnect/DiemDanhDatabse.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controler/Gui/ChinhSuaThongTin.ui" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Gui/ChinhSuaThongTin.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controler/Face_Recognition/LoadCamera.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/FunctionForCam.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controler/Face_Recognition/TrainingData.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/TrainingData.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controler/Face_Recognition/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controler/Face_recog.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_recog.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controler/GetFace_Image.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/GetFace_Image.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controler/MainFrom.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/MainFrom.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controler/QuanLyChucVu.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/QuanLyChucVu.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controler/Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controler/tets.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/tets.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/Hinhmau.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/Hinhmau.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/User.2.1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/User.2.1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/User.2.10 - Copy.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/User.2.10 - Copy.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/User.2.10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/User.2.10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/User.2.11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/User.2.11.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/User.2.12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/User.2.12.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/User.2.13.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/User.2.13.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/User.2.14.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/User.2.14.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/User.2.15.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/User.2.15.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/User.2.16 - Copy.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/User.2.16 - Copy.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/User.2.16.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/User.2.16.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/User.2.17.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/User.2.17.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/User.2.18.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/User.2.18.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/User.2.19.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/User.2.19.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/User.2.2 - Copy.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/User.2.2 - Copy.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/User.2.2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/User.2.2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/User.2.20.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/User.2.20.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/User.2.21.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/User.2.21.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/User.2.22.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/User.2.22.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/User.2.23.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/User.2.23.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/User.2.24.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/User.2.24.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/User.2.25.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/User.2.25.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/User.2.26.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/User.2.26.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/User.2.27.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/User.2.27.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/User.2.28 - Copy.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/User.2.28 - Copy.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/User.2.28.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/User.2.28.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/User.2.29.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/User.2.29.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/User.2.3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/User.2.3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/User.2.30.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/User.2.30.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/User.2.4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/User.2.4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/User.2.5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/User.2.5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/User.2.6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/User.2.6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/User.2.7 - Copy.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/User.2.7 - Copy.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/User.2.7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/User.2.7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/User.2.8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/User.2.8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/User.2.9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/User.2.9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/billgate.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/billgate.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/download (1) - Copy.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/download (1) - Copy.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/download (1).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/download (1).jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/download (2).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/download (2).jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/download (3).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/download (3).jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/download.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/download.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/images (1).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/images (1).jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/images (10).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/images (10).jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/images (11).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/images (11).jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/images (12).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/images (12).jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/images (13).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/images (13).jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/images (14) - Copy.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/images (14) - Copy.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/images (14).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/images (14).jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/images (15) - Copy.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/images (15) - Copy.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/images (15).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/images (15).jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/images (16).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/images (16).jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/images (17).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/images (17).jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/images (18).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/images (18).jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/images (19).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/images (19).jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/images (2).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/images (2).jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/images (20).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/images (20).jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/images (21) - Copy.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/images (21) - Copy.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/images (21).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/images (21).jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/images (22).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/images (22).jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/images (23).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/images (23).jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/images (24).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/images (24).jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/images (25).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/images (25).jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/images (26).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/images (26).jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/images (27).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/images (27).jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/images (28).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/images (28).jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/images (29) - Copy.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/images (29) - Copy.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/images (29).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/images (29).jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/images (3).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/images (3).jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/images (30).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/images (30).jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/images (31).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/images (31).jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/images (32).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/images (32).jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/images (33).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/images (33).jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/images (34).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/images (34).jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/images (35).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/images (35).jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/images (36).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/images (36).jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/images (37).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/images (37).jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/images (38) - Copy.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/images (38) - Copy.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/images (38).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/images (38).jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/images (39) - Copy.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/images (39) - Copy.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/images (39).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/images (39).jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/images (4).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/images (4).jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/images (40).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/images (40).jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/images (41).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/images (41).jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/images (42).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/images (42).jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/images (43).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/images (43).jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/images (44).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/images (44).jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/images (45).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/images (45).jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/images (46).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/images (46).jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/images (47).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/images (47).jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/images (5).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/images (5).jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/images (6).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/images (6).jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/images (7) - Copy.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/images (7) - Copy.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/images (7).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/images (7).jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/images (8).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/images (8).jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/images (9) - Copy.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/images (9) - Copy.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/images (9).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/images (9).jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/images.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/images.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/obama2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/obama2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/Image/scrape_14641671772808_5-1464164400329.png" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/Image/scrape_14641671772808_5-1464164400329.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataSet/TrainerData/trainer.yml" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,78 +133,32 @@
       <file leaf-file-name="GetFace_Image.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Controler/GetFace_Image.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="111" lean-forward="true" selection-start-line="111" selection-end-line="111" />
+            <state relative-caret-position="-159">
+              <caret column="30" selection-start-column="30" selection-end-column="30" />
               <folding>
-                <element signature="e#0#30#0" expanded="true" />
+                <element signature="e#482#1179#0" />
+                <element signature="e#1219#1398#0" />
+                <element signature="e#1433#1698#0" />
+                <element signature="e#1820#2135#0" />
+                <element signature="e#2191#2541#0" />
+                <element signature="e#2511#2888#0" />
+                <element signature="e#3013#3471#0" />
+                <element signature="e#3514#3718#0" />
+                <element signature="e#3788#3978#0" />
+                <element signature="e#4637#5482#0" />
+                <element signature="e#5569#5717#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QuanLyPhongBan.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Controler/QuanLyPhongBan.py">
+      <file leaf-file-name="TrainingData.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Controler/TrainingData.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="2" column="18" lean-forward="true" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Controler/Test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="141" column="22" lean-forward="true" selection-start-line="141" selection-start-column="22" selection-end-line="141" selection-end-column="22" />
+              <caret line="4" column="51" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
               <folding>
-                <element signature="e#0#39#0" expanded="true" />
-                <element signature="e#387#5072#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConectToDatabase.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Controler/DataConnect/ConectToDatabase.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="51" selection-start-line="51" selection-end-line="51" />
-              <folding>
-                <element signature="e#0#14#0" expanded="true" />
-                <element signature="e#94#215#0" />
-                <element signature="e#246#481#0" />
-                <element signature="e#246#347#1" />
-                <element signature="e#515#757#0" />
-                <element signature="e#791#931#0" />
-                <element signature="e#1282#1397#0" />
-                <element signature="e#1423#1536#0" />
-                <element signature="e#2062#2246#0" />
-                <element signature="e#2284#2454#0" />
-                <element signature="e#2496#2674#0" />
-                <element signature="e#2710#3166#0" />
-                <element signature="e#3471#3562#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Face_recog.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Controler/Face_recog.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="71" column="34" lean-forward="true" selection-start-line="71" selection-start-column="34" selection-end-line="71" selection-end-column="34" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-                <element signature="e#343#1052#0" />
-                <element signature="e#1091#1221#0" />
-                <element signature="e#1250#1359#0" />
-                <element signature="e#1395#1473#0" />
-                <element signature="e#1509#1774#0" />
-                <element signature="e#1811#2069#0" />
-                <element signature="e#2119#2577#0" />
-                <element signature="e#2633#2977#0" />
-                <element signature="e#3017#4497#0" />
-                <element signature="e#4528#4970#0" />
+                <element signature="e#209#759#0" />
               </folding>
             </state>
           </provider>
@@ -107,11 +167,13 @@
       <file leaf-file-name="MainFrom.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Controler/MainFrom.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="200" column="8" selection-start-line="200" selection-start-column="8" selection-end-line="200" selection-end-column="8" />
+            <state relative-caret-position="224">
+              <caret line="250" column="21" lean-forward="true" selection-start-line="250" selection-start-column="21" selection-end-line="250" selection-end-column="21" />
               <folding>
                 <element signature="e#0#44#0" expanded="true" />
-                <element signature="e#7147#8351#0" />
+                <element signature="e#9658#9734#0" />
+                <element signature="e#9772#9836#0" />
+                <element signature="e#9872#10690#0" />
               </folding>
             </state>
           </provider>
@@ -134,7 +196,13 @@
       <find>3.46020772e-03, 0., 0., 0., 0., 0., 0., 1.73010379e-02,</find>
       <find>PhongBan</find>
       <find>QtGui</find>
+      <find>txtMaNv</find>
+      <find>self.MaNV</find>
+      <find>self</find>
+      <find>MaNVDefault</find>
       <find>InsertPhongBan</find>
+      <find>IDImage</find>
+      <find>recognizer</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -144,18 +212,20 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Controler/TestFuntion.py" />
-        <option value="$PROJECT_DIR$/Controler/Face_Recognition/test.py" />
         <option value="$PROJECT_DIR$/Controler/Gui/GetFace_Image.py" />
-        <option value="$PROJECT_DIR$/Controler/Face_Recognition/TrainingData.py" />
-        <option value="$PROJECT_DIR$/Controler/tets.txt" />
-        <option value="$PROJECT_DIR$/Controler/Face_Recognition/LoadCamera.py" />
-        <option value="$PROJECT_DIR$/Controler/GetFace_Image.py" />
-        <option value="$PROJECT_DIR$/Controler/DataConnect/ConectToDatabase.py" />
-        <option value="$PROJECT_DIR$/Controler/Face_recog.py" />
         <option value="$PROJECT_DIR$/Controler/Test.py" />
         <option value="$PROJECT_DIR$/Controler/QuanLyChucVu.py" />
         <option value="$PROJECT_DIR$/Controler/QuanLyPhongBan.py" />
+        <option value="$PROJECT_DIR$/Controler/DataConnect/ConectToDatabase.py" />
+        <option value="$PROJECT_DIR$/Controler/Face_Recognition/LoadCamera.py" />
+        <option value="$PROJECT_DIR$/Controler/Face_recog.py" />
+        <option value="$PROJECT_DIR$/Controler/tets.txt" />
+        <option value="$PROJECT_DIR$/Controler/Face_Recognition/FunctionForCam.py" />
+        <option value="$PROJECT_DIR$/Controler/Face_Recognition/test.py" />
         <option value="$PROJECT_DIR$/Controler/MainFrom.py" />
+        <option value="$PROJECT_DIR$/Controler/Face_Recognition/TrainingData.py" />
+        <option value="$PROJECT_DIR$/Controler/TrainingData.py" />
+        <option value="$PROJECT_DIR$/Controler/GetFace_Image.py" />
       </list>
     </option>
   </component>
@@ -214,18 +284,35 @@
               <item name="DoAnTotNghiep" type="b2602c69:ProjectViewProjectNode" />
               <item name="DoAnTotNghiep" type="462c0819:PsiDirectoryNode" />
               <item name="Controler" type="462c0819:PsiDirectoryNode" />
-              <item name="Gui" type="462c0819:PsiDirectoryNode" />
+              <item name="Face_Recognition" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DoAnTotNghiep" type="b2602c69:ProjectViewProjectNode" />
               <item name="DoAnTotNghiep" type="462c0819:PsiDirectoryNode" />
+              <item name="Controler" type="462c0819:PsiDirectoryNode" />
+              <item name="Face_Recognition" type="462c0819:PsiDirectoryNode" />
               <item name="DataSet" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DoAnTotNghiep" type="b2602c69:ProjectViewProjectNode" />
               <item name="DoAnTotNghiep" type="462c0819:PsiDirectoryNode" />
+              <item name="Controler" type="462c0819:PsiDirectoryNode" />
+              <item name="Face_Recognition" type="462c0819:PsiDirectoryNode" />
               <item name="DataSet" type="462c0819:PsiDirectoryNode" />
-              <item name="Image" type="462c0819:PsiDirectoryNode" />
+              <item name="ImageLibrary" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DoAnTotNghiep" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DoAnTotNghiep" type="462c0819:PsiDirectoryNode" />
+              <item name="Controler" type="462c0819:PsiDirectoryNode" />
+              <item name="Face_Recognition" type="462c0819:PsiDirectoryNode" />
+              <item name="DataSet" type="462c0819:PsiDirectoryNode" />
+              <item name="TrainerData" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DoAnTotNghiep" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DoAnTotNghiep" type="462c0819:PsiDirectoryNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -241,16 +328,18 @@
     <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\NguyenCuong\PycharmProjects\DoAnTotNghiep\Controler" />
+      <recent name="C:\Users\NguyenCuong\PycharmProjects\DoAnTotNghiep\Controler\Face_Recognition" />
+      <recent name="C:\Users\NguyenCuong\PycharmProjects\DoAnTotNghiep\Controler\Gui" />
+      <recent name="C:\Users\NguyenCuong\PycharmProjects\DoAnTotNghiep\.idea" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\NguyenCuong\PycharmProjects\DoAnTotNghiep\DataSet\ImageLibrary" />
       <recent name="C:\Users\NguyenCuong\PycharmProjects\DoAnTotNghiep\Controler" />
       <recent name="C:\Users\NguyenCuong\PycharmProjects\DoAnTotNghiep\DataSet" />
       <recent name="C:\Users\NguyenCuong\PycharmProjects\DoAnTotNghiep\Controler\Face_Recognition" />
       <recent name="C:\Users\NguyenCuong\PycharmProjects\DoAnTotNghiep\Gui" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\NguyenCuong\PycharmProjects\DoAnTotNghiep\Controler" />
-      <recent name="C:\Users\NguyenCuong\PycharmProjects\DoAnTotNghiep\Controler\Gui" />
-      <recent name="C:\Users\NguyenCuong\PycharmProjects\DoAnTotNghiep\.idea" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -265,8 +354,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.MainFrom">
-    <configuration name="Face_recog" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.GetFace_Image">
+    <configuration name="GetFace_Image" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DoAnTotNghiep" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -278,7 +367,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Controler/Face_recog.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Controler/GetFace_Image.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -302,7 +391,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="QuanLyChucVu" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="TrainingData (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DoAnTotNghiep" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -314,13 +403,13 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Controler/QuanLyChucVu.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Controler/TrainingData.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="QuanLyPhongBan" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="TrainingData" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DoAnTotNghiep" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -328,17 +417,17 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Controler" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Controler/Face_Recognition" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Controler/QuanLyPhongBan.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\NguyenCuong\PycharmProjects\DoAnTotNghiep\Controler\TrainingData.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="Test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DoAnTotNghiep" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -346,30 +435,30 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Controler" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Controler/Face_Recognition" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Controler/Test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Controler/Face_Recognition/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.Test" />
-      <item itemvalue="Python.Face_recog" />
-      <item itemvalue="Python.QuanLyPhongBan" />
-      <item itemvalue="Python.QuanLyChucVu" />
       <item itemvalue="Python.MainFrom" />
+      <item itemvalue="Python.GetFace_Image" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.TrainingData" />
+      <item itemvalue="Python.TrainingData (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.GetFace_Image" />
+        <item itemvalue="Python.TrainingData (1)" />
+        <item itemvalue="Python.TrainingData" />
         <item itemvalue="Python.MainFrom" />
-        <item itemvalue="Python.QuanLyPhongBan" />
-        <item itemvalue="Python.QuanLyChucVu" />
-        <item itemvalue="Python.Test" />
-        <item itemvalue="Python.Face_recog" />
+        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -386,19 +475,28 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView" selected-index="3">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24304539" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35285506" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3290938" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3290938" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="Python Console" order="8" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.16057234" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3290938" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32913387" />
+      <window_info anchor="bottom" x="0" y="260" width="1366" height="207" id="Terminal" order="9" type="WINDOWED" weight="0.3290938" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.0063593006" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -429,15 +527,6 @@
           <url>file://$PROJECT_DIR$/Controler/DataConnect/ConectToDatabase.py</url>
           <line>92</line>
           <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Controler/MainFrom.py</url>
-          <option name="timeStamp" value="35" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Controler/GetFace_Image.py</url>
-          <line>48</line>
-          <option name="timeStamp" value="49" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Controler/DataConnect/ConectToDatabase.py</url>
@@ -489,6 +578,41 @@
           <line>101</line>
           <option name="timeStamp" value="102" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Controler/MainFrom.py</url>
+          <line>155</line>
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Controler/MainFrom.py</url>
+          <line>156</line>
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Controler/MainFrom.py</url>
+          <line>157</line>
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Controler/MainFrom.py</url>
+          <line>159</line>
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Controler/GetFace_Image.py</url>
+          <line>83</line>
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Controler/GetFace_Image.py</url>
+          <line>84</line>
+          <option name="timeStamp" value="125" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Controler/TrainingData.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -497,197 +621,12 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="103" />
+      <option name="time" value="127" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Controler/MainFrom.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="200" column="17" selection-start-line="200" selection-start-column="17" selection-end-line="200" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#44#0" expanded="true" />
-            <element signature="e#7147#8351#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controler/DataConnect/ConectToDatabase.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="111" column="10" lean-forward="true" selection-start-line="111" selection-start-column="10" selection-end-line="111" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-            <element signature="e#94#215#0" />
-            <element signature="e#246#481#0" />
-            <element signature="e#246#347#1" />
-            <element signature="e#515#757#0" />
-            <element signature="e#791#931#0" />
-            <element signature="e#1282#1397#0" />
-            <element signature="e#1423#1536#0" />
-            <element signature="e#2062#2246#0" />
-            <element signature="e#2284#2454#0" />
-            <element signature="e#2496#2674#0" />
-            <element signature="e#2710#3166#0" />
-            <element signature="e#3471#3562#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controler/MainFrom.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#44#0" expanded="true" />
-            <element signature="e#7147#8351#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controler/DataConnect/ConectToDatabase.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1547">
-          <caret line="130" selection-start-line="130" selection-end-line="130" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-            <element signature="e#94#215#0" />
-            <element signature="e#246#481#0" />
-            <element signature="e#246#347#1" />
-            <element signature="e#515#757#0" />
-            <element signature="e#791#931#0" />
-            <element signature="e#1282#1397#0" />
-            <element signature="e#1423#1536#0" />
-            <element signature="e#2062#2246#0" />
-            <element signature="e#2284#2454#0" />
-            <element signature="e#2496#2674#0" />
-            <element signature="e#2710#3166#0" />
-            <element signature="e#3471#3562#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controler/Test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controler/DataConnect/ConectToDatabase.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1258">
-          <caret line="74" column="31" selection-start-line="74" selection-start-column="31" selection-end-line="74" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-            <element signature="e#94#215#0" />
-            <element signature="e#246#481#0" />
-            <element signature="e#246#347#1" />
-            <element signature="e#515#757#0" />
-            <element signature="e#791#931#0" />
-            <element signature="e#1282#1397#0" />
-            <element signature="e#1423#1536#0" />
-            <element signature="e#2062#2246#0" />
-            <element signature="e#2284#2454#0" />
-            <element signature="e#2496#2674#0" />
-            <element signature="e#2710#3166#0" />
-            <element signature="e#3471#3562#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controler/MainFrom.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1088">
-          <caret line="64" column="40" lean-forward="true" selection-start-line="64" selection-start-column="40" selection-end-line="64" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#44#0" expanded="true" />
-            <element signature="e#7147#8351#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controler/Test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controler/DataConnect/ConectToDatabase.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-            <element signature="e#94#215#0" />
-            <element signature="e#246#481#0" />
-            <element signature="e#246#347#1" />
-            <element signature="e#515#757#0" />
-            <element signature="e#791#931#0" />
-            <element signature="e#1282#1397#0" />
-            <element signature="e#1423#1536#0" />
-            <element signature="e#2062#2246#0" />
-            <element signature="e#2284#2454#0" />
-            <element signature="e#2496#2674#0" />
-            <element signature="e#2710#3166#0" />
-            <element signature="e#3471#3562#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controler/Test.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controler/DataConnect/ConectToDatabase.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="20" column="46" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-            <element signature="e#94#215#0" />
-            <element signature="e#246#481#0" />
-            <element signature="e#246#347#1" />
-            <element signature="e#515#757#0" />
-            <element signature="e#791#931#0" />
-            <element signature="e#1282#1397#0" />
-            <element signature="e#1423#1536#0" />
-            <element signature="e#2062#2246#0" />
-            <element signature="e#2284#2454#0" />
-            <element signature="e#2496#2674#0" />
-            <element signature="e#2710#3166#0" />
-            <element signature="e#3471#3562#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gui/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/Controler/TestFuntion.py" />
-    <entry file="file://$PROJECT_DIR$/Controler/Gui/ChinhSuaThongTin.ui">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/sqlite3/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-119" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/PyQt5/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102" />
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.PyCharm2017.3/system/python_stubs/777538993/sys.py" />
     <entry file="file://$USER_HOME$/.PyCharm2017.3/system/python_stubs/777538993/PyQt5/QtCore/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/Controler/Face_Recognition/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="42" selection-start-column="42" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Controler/Face_Recognition/haarcascade_frontalface_default.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -709,78 +648,11 @@
     <entry file="file://$PROJECT_DIR$/DataSet/ImageLibrary/User.None.12.jpg" />
     <entry file="file://$PROJECT_DIR$/DataSet/ImageLibrary/User.None.15.jpg" />
     <entry file="file://$PROJECT_DIR$/DataSet/ImageLibrary/User.None.98.jpg" />
-    <entry file="file://$PROJECT_DIR$/Controler/Face_Recognition/TrainingData.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controler/tets.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="14" selection-start-column="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controler/Face_Recognition/LoadCamera.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
-          <caret line="48" column="22" lean-forward="true" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DataSet/ImageLibrary/User.20.11.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/DataSet/TrainerData/trainer.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/DataSet/ImageLibrary/User.20.91.jpg">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controler/GetFace_Image.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="111" lean-forward="true" selection-start-line="111" selection-end-line="111" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controler/DataConnect/ConectToDatabase.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-            <element signature="e#94#215#0" />
-            <element signature="e#246#481#0" />
-            <element signature="e#246#347#1" />
-            <element signature="e#515#757#0" />
-            <element signature="e#791#931#0" />
-            <element signature="e#1282#1397#0" />
-            <element signature="e#1423#1536#0" />
-            <element signature="e#2062#2246#0" />
-            <element signature="e#2284#2454#0" />
-            <element signature="e#2496#2674#0" />
-            <element signature="e#2710#3166#0" />
-            <element signature="e#3471#3562#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controler/Test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="141" column="22" lean-forward="true" selection-start-line="141" selection-start-column="22" selection-end-line="141" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-            <element signature="e#387#5072#0" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Controler/QuanLyChucVu.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -792,10 +664,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Controler/Test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="141" column="22" selection-start-line="141" selection-start-column="22" selection-end-line="141" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#387#5072#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controler/tets.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controler/Face_Recognition/guru99.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="3" lean-forward="true" selection-start-column="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controler/Face_Recognition/test.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Controler/Face_recog.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="71" column="34" lean-forward="true" selection-start-line="71" selection-start-column="34" selection-end-line="71" selection-end-column="34" />
+        <state relative-caret-position="54">
+          <caret line="26" column="66" selection-start-line="26" selection-start-column="66" selection-end-line="26" selection-end-column="66" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
             <element signature="e#343#1052#0" />
@@ -806,7 +702,7 @@
             <element signature="e#1811#2069#0" />
             <element signature="e#2119#2577#0" />
             <element signature="e#2633#2977#0" />
-            <element signature="e#3017#4497#0" />
+            <element signature="e#3017#4496#0" />
             <element signature="e#4528#4970#0" />
           </folding>
         </state>
@@ -814,18 +710,149 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Controler/QuanLyPhongBan.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="88" column="49" lean-forward="true" selection-start-line="88" selection-start-column="49" selection-end-line="88" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controler/Face_Recognition/FunctionForCam.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controler/DataConnect/ConectToDatabase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="89" column="20" selection-start-line="89" selection-start-column="20" selection-end-line="89" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#94#215#0" />
+            <element signature="e#246#481#0" />
+            <element signature="e#246#347#1" />
+            <element signature="e#515#757#0" />
+            <element signature="e#791#931#0" />
+            <element signature="e#967#1254#0" />
+            <element signature="e#1282#1397#0" />
+            <element signature="e#1423#1536#0" />
+            <element signature="e#1620#1702#0" />
+            <element signature="e#1743#2026#0" />
+            <element signature="e#2062#2246#0" />
+            <element signature="e#2284#2454#0" />
+            <element signature="e#2710#3166#0" />
+            <element signature="e#3202#3521#0" />
+            <element signature="e#3471#3562#0" />
+            <element signature="e#3550#3833#0" />
+            <element signature="e#3824#4055#0" />
+            <element signature="e#4093#4131#0" />
+            <element signature="e#4178#4410#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/_bootlocale.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="332" selection-start-line="332" selection-end-line="332" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controler/Face_Recognition/MAHINHANH.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controler/Face_Recognition/DataSet/ImageLibrary/User.24.11.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controler/MAHINHANH.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controler/Face_Recognition/DataSet/ImageLibrary/User.24.14.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controler/Face_Recognition/DataSet/ImageLibrary/User.24.12.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controler/Face_Recognition/DataSet/ImageLibrary/User.24.9.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controler/Face_Recognition/DataSet/ImageLibrary/User.24.7.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controler/Face_Recognition/DataSet/ImageLibrary/User.24.100.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controler/Face_Recognition/DataSet/ImageLibrary/User.24.1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controler/Face_Recognition/DataSet/ImageLibrary/User.24.2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controler/Face_Recognition/DataSet/ImageLibrary/User.24.4.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataSet/ImageLibrary/User.None.1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controler/Face_Recognition/DataSet/TrainerData/trainer.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="170246" column="26" lean-forward="true" selection-start-line="170246" selection-start-column="26" selection-end-line="170246" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controler/Face_Recognition/DataSet/ImageLibrary/User.24.3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controler/GetFace_Image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-159">
+          <caret column="30" selection-start-column="30" selection-end-column="30" />
+          <folding>
+            <element signature="e#482#1179#0" />
+            <element signature="e#1219#1398#0" />
+            <element signature="e#1433#1698#0" />
+            <element signature="e#1820#2135#0" />
+            <element signature="e#2191#2541#0" />
+            <element signature="e#2511#2888#0" />
+            <element signature="e#3013#3471#0" />
+            <element signature="e#3514#3718#0" />
+            <element signature="e#3788#3978#0" />
+            <element signature="e#4637#5482#0" />
+            <element signature="e#5569#5717#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controler/TrainingData.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="18" lean-forward="true" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+          <caret line="4" column="51" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
+          <folding>
+            <element signature="e#209#759#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Controler/MainFrom.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="200" column="8" selection-start-line="200" selection-start-column="8" selection-end-line="200" selection-end-column="8" />
+        <state relative-caret-position="224">
+          <caret line="250" column="21" lean-forward="true" selection-start-line="250" selection-start-column="21" selection-end-line="250" selection-end-column="21" />
           <folding>
             <element signature="e#0#44#0" expanded="true" />
-            <element signature="e#7147#8351#0" />
+            <element signature="e#9658#9734#0" />
+            <element signature="e#9772#9836#0" />
+            <element signature="e#9872#10690#0" />
           </folding>
         </state>
       </provider>

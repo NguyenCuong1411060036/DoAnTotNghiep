@@ -11,6 +11,9 @@
           <option value="ConectToDatabase" />
           <option value="Controler.MainFrom.DataConnect" />
           <option value="Controler.MainFrom.Test" />
+          <option value="Controler.GetFace_Image.IDImage" />
+          <option value="Controler.MainFrom.GetIDImage" />
+          <option value="Controler.MainFrom.LayIDHinhAnh" />
         </list>
       </option>
     </inspection_tool>
