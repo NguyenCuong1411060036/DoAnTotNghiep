@@ -2,9 +2,9 @@ import cv2, os
 import numpy as np
 from PIL import Image
 recognizer = cv2.face.LBPHFaceRecognizer_create()
-detector = cv2.CascadeClassifier("haarcascade_frontalface_default.xml");
+detector = cv2.CascadeClassifier("Face_Recognition/haarcascade_frontalface_default.xml");
 def getImagesAndLabels():
-    path="DataSet/ImageLibrary"
+    path="Face_Recognition/DataSet/ImageLibrary"
     imagePaths = [os.path.join(path,f) for f in os.listdir(path)]
     faceSamples=[]
     ids = []
@@ -23,4 +23,4 @@ def getImagesAndLabels():
     return faceSamples,ids
 faces,ids = getImagesAndLabels()
 recognizer.train(faces, np.array(ids))
-recognizer.write('DataSet/TrainerData/trainer.yml')
+recognizer.write('Face_Recognition/DataSet/TrainerData/trainer.yml')

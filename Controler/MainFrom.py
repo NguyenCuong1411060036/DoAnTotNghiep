@@ -1,14 +1,12 @@
 from PyQt5 import QtCore,QtGui,QtWidgets,uic
-from Controler.QuanLyChucVu import MyWindow as QuanLyChucVu
 from PyQt5.QtSql import QSqlQueryModel,QSqlDatabase
 from PyQt5.QtWidgets import QMessageBox, QDialog
 from subprocess import Popen
-
-
-
+from Controler.Face_Recognition.FunctionForCam import Image
 from Controler.DataConnect.ConectToDatabase import GetNhanVien, create_connection, GetAllNhanVien, GetPhongBan, \
-    GetChucVu, TaskNhanVien, getMaChucVu, getMaPhongBan, InsertNhanVien, DeleteNhanVien, UpdateNhanvien
-MaNV=23
+    GetChucVu, TaskNhanVien, getMaChucVu, getMaPhongBan, InsertNhanVien, DeleteNhanVien, UpdateNhanvien, \
+    GetLastIDNhanVien
+MaNV=12
 p=None
 class MyWindow(QtWidgets.QMainWindow):
     def __init__(self):
@@ -26,6 +24,8 @@ class MyWindow(QtWidgets.QMainWindow):
         self.btnQuanLyPhongBan.clicked.connect(self.QuanLyPhongBan)
         self.btnQuanLyChucVu.clicked.connect(self.QuanLyChucVu)
         self.btnLuuLai.clicked.connect(self.SuaNhanVien)
+        self.btnDoiMatKhau.clicked.connect(self.DoiMatKhau)
+        self.btnTaoTaiKhoan.clicked.connect(self.TaoTaiKhoan)
         self.MaNV=None
     def ShowListNhanVien(self):
         db = QSqlDatabase.addDatabase("QSQLITE")
@@ -83,8 +83,6 @@ class MyWindow(QtWidgets.QMainWindow):
         DienThoai=(projectModel.index(row,6)).data()
         ChucVu=(projectModel.index(row,7)).data()
         PhongBan=(projectModel.index(row,8)).data()
-
-
         self.LbMaNhanVien.setText(str(MaNV))
         self.txtHoTen.setText(str(TenNhanVien))
         if (GioiTinh == "Nữ"):
@@ -126,6 +124,7 @@ class MyWindow(QtWidgets.QMainWindow):
             print("Không đủ điều kiên")
             return 0
     def ClearForm(self):
+         self.LbMaNhanVien.setText("")
          self.txtHoTen.setText("")
          self.txtTuoi.setValue(18)
          self.txtSoDienThoai.setText("")
@@ -134,7 +133,7 @@ class MyWindow(QtWidgets.QMainWindow):
     def ThemMoi(self):
         KiemTra=self.CheckForm()
         if(KiemTra==0):
-            print("Bạn Phải nhập đây đủ thông tin ")
+            self.ShowWarning("Vui Lòng Nhập đầy đủ thông tin")
         else:
             conn = create_connection('DataConnect/DiemDanhDatabse.db')
             with conn:
@@ -150,12 +149,16 @@ class MyWindow(QtWidgets.QMainWindow):
                 Email = self.txtEmail.text()
                 DienThoai=self.txtSoDienThoai.text()
                 task=TaskNhanVien(tenNhanVien,gioitinh,tuoi,DiaChi,Email,DienThoai,MaChucVu,MaPhongBan)
-                InsertNhanVien(conn,task)
+                result = InsertNhanVien(conn,task)
+                if result == 0 :
+                    self.ShowWarning("Thông tin trùng khớp, vui lòng xem lại")
+                else:
+                    self.MaNV=GetLastIDNhanVien(conn)
+                    self.GhiMANV(str(self.MaNV))
+                    self.ShowRequest()
 
-
-        self.ClearForm()
+                self.ClearForm()
         self.ShowListNhanVien()
-
     def XoaNhanVien(self):
         MaNV=self.LbMaNhanVien.text()
         if(MaNV.strip()):
@@ -164,11 +167,25 @@ class MyWindow(QtWidgets.QMainWindow):
                 DeleteNhanVien(conn, MaNV)
                 self.ClearForm()
         else:
-            print("Bạn phải chọn nhân viên cần xóa ")
+            self.ShowWarning("Vui Lòng Chọn Nhân Viên Cần Xóa")
         self.ShowListNhanVien()
+    def ShowWarning(self, Mes):
+        self.msg = QMessageBox()
+        self.msg.setIcon(QMessageBox.Warning)
+        self.msg.setText(str(Mes))
+        self.msg.setWindowTitle("Cảnh Báo")
+        self.msg.setStandardButtons(QMessageBox.Ok)
+        self.msg.show()
+    def showQMessageBox(self, Mes):
+        self.msg = QMessageBox()
+        self.msg.setIcon(QMessageBox.Information)
+        self.msg.setText(str(Mes))
+        self.msg.setWindowTitle("Thông Báo")
+        self.msg.setStandardButtons(QMessageBox.Ok)
+        self.msg.show()
     def SuaNhanVien(self):
-        MaNV = self.LbMaNhanVien.text()
-        if (MaNV.strip()):
+        self.MaNV = self.LbMaNhanVien.text()
+        if (self.MaNV.strip()):
             conn = create_connection('DataConnect/DiemDanhDatabse.db')
             with conn:
                 if(self.CheckForm()==1):
@@ -183,14 +200,19 @@ class MyWindow(QtWidgets.QMainWindow):
                     Email = self.txtEmail.text()
                     DienThoai = self.txtSoDienThoai.text()
                     task = TaskNhanVien(tenNhanVien, gioitinh, tuoi, DiaChi, Email, DienThoai, MaChucVu, MaPhongBan)
-                    UpdateNhanvien(conn, MaNV,task)
+                    result =UpdateNhanvien(conn, self.MaNV,task)
+
+                    if result == 0:
+                        self.ShowWarning("Thông tin trùng khớp, vui lòng xem lại")
+                    else:
+                        self.GhiMANV(self.MaNV)
+                        self.ShowRequest()
+
                     self.ClearForm()
                 else:
                     print("Nhập đầy đủ thông tin đi ba")
-
-
         else:
-            print("Bạn phải chọn nhân viên cần xóa ")
+            self.ShowWarning("Vui Lòng Nhập Chọn Nhân Viên Cần Chỉnh Sửa")
 
         self.ShowListNhanVien()
     def DiemDanh(self):
@@ -198,10 +220,35 @@ class MyWindow(QtWidgets.QMainWindow):
     def QuanLyPhongBan(self):
         Popen('python QuanLyPhongBan.py')
     def QuanLyChucVu(self):
-        Popen("python QuanLyChucVu.py")
-
-        print("abc")
-
+        Popen('python QuanLyChucVu.py')
+    def DoiMatKhau(self):
+        Popen('python DoiMatKhau.py')
+    def TaoTaiKhoan(self):
+        Popen('python CreateAccount.py')
+    def GhiMANV(self,MaNV):
+        f = open("MAHINHANH.txt", "w+")
+        f.write(MaNV)
+        f.close()
+    def GetFace_Image(self):
+        #self.GhiMANV(self.MaNV)
+        Popen("python GetFace_Image.py")
+    def ShowRequest(self):
+        self.msg = QMessageBox()
+        self.msg.setIcon(QMessageBox.Information)
+        self.msg.setText("Bạn đã cập nhật thành công thông tin.Bạn có muốn cập nhật lại khuôn mặt   ")
+        self.msg.setWindowTitle("Cập nhật khuôn mặt  ")
+        self.msg.setStandardButtons(QMessageBox.Yes | QMessageBox.No)
+        self.msg.setDefaultButton(QMessageBox.Yes)
+        #### Lấy giá trị click lưu vào ret #############################
+        ret = self.msg.exec()
+        print(str(ret))
+        #### nếu ret =16384 hay click vào button yes thì in ra màn hình câu câu thông báo " click yes"
+        if (ret == QMessageBox.Yes):
+            self.GetFace_Image()
+        #### nếu click vào no in ra câu thông báo " click no "
+        if (ret == QMessageBox.No):
+            print("Load Lại Form ")
+            self.ClearForm()
 if __name__=='__main__':
     import sys;
     app=QtWidgets.QApplication(sys.argv)

@@ -151,13 +151,37 @@ def UpdateChucVu(conn,MaChucVu,Task):
     except Error as e:
         print(e)
         return 0
-
+def Login(conn,UserName,PassWord):
+    cur = conn.cursor()
+    query = "select count(*) from Acount where Acount.Email='"+UserName+"' and Acount.PassWord='"+PassWord+"'"
+    cur.execute(query)
+    result = cur.fetchone();
+    return result[0]
+def ChangePassWord(conn,Email,PassWord):
+    cur = conn.cursor()
+    query = "UPDATE Acount SET PassWord = '"+str(PassWord)+"' WHERE Email = '"+str(Email)+"'"
+    try:
+        cur.execute(query)
+        print("thauy doi thanh cong")
+        return 1
+    except Error as e:
+        print(e)
+        return 0
+def CreateAccount(conn,Email,PassWord):
+    cur = conn.cursor()
+    cmd = "INSERT INTO Acount (Email,PassWord)VALUES ('"+Email+"','"+PassWord+"');"
+    try:
+        cur.execute(cmd)
+        print("them thanh cong")
+        return 1
+    except Error as e:
+        print(e)
+        return 0
 def main():
     # create a database connection
     conn = create_connection('DiemDanhDatabse.db')
-    task=TaskPhongBan('a','qwsc')
     with conn:
-        result = UpdatePhongBan(conn,1,task)
+        result = CreateAccount(conn,'123@gmail.com','123456789')
         print(result)
 if __name__ == '__main__':
     main()

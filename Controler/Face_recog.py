@@ -4,7 +4,6 @@ from PyQt5 import QtWidgets,uic
 from PyQt5.QtCore import QTimer, QTime
 from PyQt5.QtGui import QImage, QPixmap
 from Controler.DataConnect.ConectToDatabase import GetNhanVien, create_connection, InsertDiemDanh
-from Controler.MainFrom import MaNV
 class MyWindow(QtWidgets.QMainWindow):
     def __init__(self):
         super(MyWindow,self).__init__()
@@ -17,7 +16,7 @@ class MyWindow(QtWidgets.QMainWindow):
         self.ShowCurentDate()
         self.Conn=None
         self.face_enable=True
-        self.MaNV=MaNV
+        self.MaNV=None
         self.count=0
         self.ImagePath=None
         self.face_ID = None
@@ -25,7 +24,7 @@ class MyWindow(QtWidgets.QMainWindow):
         self.Count=0
         self.face_detector = cv2.CascadeClassifier('Face_Recognition/haarcascade_frontalface_default.xml')
         self.recognizer = cv2.face.LBPHFaceRecognizer_create()
-        self.recognizer.read('../DataSet/TrainerData/trainer.yml')
+        self.recognizer.read('Face_Recognition/DataSet/TrainerData/trainer.yml')
     def ShowCurentDate(self):
         Curentdate=str(self.now.day) + "/" + str(self.now.month) + "/" + str(self.now.year)
         self.txtCurentDate.setText(Curentdate)
@@ -48,7 +47,6 @@ class MyWindow(QtWidgets.QMainWindow):
         self.image=cv2.flip(self.image,1)
         self.displayImage(self.image,1)
         if (self.face_enable):
-
             detected_image = self.detect_face(self.image)
             self.displayImage(detected_image,1)
     def displayImage(self,img,window=1):

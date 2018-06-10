@@ -3,8 +3,6 @@ from Controler.DataConnect.ConectToDatabase import GetNhanVien, create_connectio
     UpdateChucVu
 from PyQt5 import QtWidgets,uic
 from PyQt5.QtSql import QSqlDatabase, QSqlQueryModel
-
-TestQDialog = uic.loadUiType("Gui/QuanLyChucVu.ui")[0]
 class MyWindow(QtWidgets.QDialog):
     def __init__(self, parent=None):
         super(MyWindow, self).__init__(parent)
@@ -118,10 +116,11 @@ class MyWindow(QtWidgets.QDialog):
         else:
             self.ShowWarning("Vui Lòng chọn Chức vụ cần cập nhật !!!")
 
-if __name__=='__main__':
+
+if __name__ == '__main__':
     import sys;
-    app=QtWidgets.QApplication(sys.argv)
-    window=MyWindow()
+
+    app = QtWidgets.QApplication(sys.argv)
+    window = MyWindow()
     window.show()
-    window.raise_()
     sys.exit(app.exec())

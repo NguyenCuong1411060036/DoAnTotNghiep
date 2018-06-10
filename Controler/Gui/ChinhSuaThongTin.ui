@@ -439,7 +439,7 @@
      <string>Kiểm soát thông minh</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_5">
+   <widget class="QPushButton" name="btnTaoTaiKhoan">
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -449,10 +449,10 @@
      </rect>
     </property>
     <property name="text">
-     <string>Quản lý tài khoản </string>
+     <string>Tạo Mới Account</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_6">
+   <widget class="QPushButton" name="btnDoiMatKhau">
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -462,7 +462,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>Trợ giúp phần mềm</string>
+     <string>Đổi Mật Khẩu</string>
     </property>
    </widget>
    <widget class="QPushButton" name="btnQuanLyPhongBan">

@@ -1,14 +1,13 @@
 from macpath import expanduser
 import cv2, os
 import numpy as np
-from PIL import Image
 from PyQt5 import QtWidgets,uic
 from os.path import expanduser
 from PyQt5.QtCore import QTimer
 from PyQt5.QtGui import QImage, QPixmap
 from PyQt5.QtWidgets import QFileDialog
+from Controler.TrainingData import getImagesAndLabels
 from Controler.DataConnect.ConectToDatabase import create_connection, GetLastIDNhanVien
-from Controler.MainFrom import MaNV
 class MyWindow(QtWidgets.QMainWindow):
     def __init__(self):
         super(MyWindow,self).__init__()
@@ -19,9 +18,9 @@ class MyWindow(QtWidgets.QMainWindow):
         self.btnChosseFolder.clicked.connect(self.ChosseImageFile)
         self.btnGetRealTimeFace.setCheckable(True)
         self.btnGetRealTimeFace.toggled.connect(self.face_record)
-        self.btnLuuThongTin.clicked.connect(self.training)
+        self.btnLuuThongTin.clicked.connect(self.TrainingData)
         self.face_enable=False
-        self.MaNV=MaNV
+        self.MaNV=self.GetIDImage()
         self.count=0
         self.ImagePath=None
         self.face_detector = cv2.CascadeClassifier('Face_Recognition/haarcascade_frontalface_default.xml')
@@ -49,21 +48,18 @@ class MyWindow(QtWidgets.QMainWindow):
     def detect_face(self,image_frame):
                 gray = cv2.cvtColor(image_frame, cv2.COLOR_BGR2GRAY)
                 faces = self.face_detector.detectMultiScale(gray, 1.3, 5)
-
                 for (x, y, w, h) in faces:
                     cv2.rectangle(image_frame, (x, y), (x + w, y + h), (255, 0, 0), 2)
-
-                    self.Chup(gray[y:y+h,x:x+w])
-
+                    self.Chup(gray[y:y+h,x:x+w],self.MaNV)
                 return image_frame
-    def Chup(self,GrayID):
-            if (self.MaNV == None):
+    def Chup(self,GrayID,MaNV):
+            if (MaNV == None):
                 conn = create_connection('DataConnect/DiemDanhDatabse.db')
-                self.MaNV = GetLastIDNhanVien(conn)
-                print("Mã nhân viên cuối cùng là " + str(self.MaNV))
+                MaNV = GetLastIDNhanVien(conn)
+                print("Mã nhân viên cuối cùng là " + str(MaNV))
             self.count+=1
             if self.count <=100 :
-                cv2.imwrite("../DataSet/ImageLibrary/User." + str(self.MaNV) + '.' + str(self.count) + ".jpg",GrayID)
+                cv2.imwrite("Face_Recognition/DataSet/ImageLibrary/User." + str(MaNV) + '.' + str(self.count) + ".jpg",GrayID)
     def displayImage(self,img,window=1):
         qfromat= QImage.Format_Indexed8
         if len(img.shape)==3:
@@ -83,33 +79,13 @@ class MyWindow(QtWidgets.QMainWindow):
         else:
             self.btnGetRealTimeFace.setText('Chup tiep')
             self.face_enable = False
-    def getImagesAndLabels(self,path):
-        imagePaths = [os.path.join(path, f) for f in os.listdir(path)]
-        faceSamples = []
-        ids = []
-        for imagePath in imagePaths:
-            PIL_img = Image.open(imagePath).convert('L')
-
-            # PIL image to numpy array
-            img_numpy = np.array(PIL_img, 'uint8')
-            id = int(os.path.split(imagePath)[-1].split(".")[1])
-
-            faces = self.face_detector.detectMultiScale(img_numpy)
-            for (x, y, w, h) in faces:
-                faceSamples.append(img_numpy[y:y + h, x:x + w])
-                ids.append(id)
-        return faceSamples, ids
-    def training(self):
-        path="../DataSet/ImageLibrary"
-        faces, ids = self.getImagesAndLabels(path)
+    def TrainingData(self):
+        faces, ids = getImagesAndLabels()
         self.recognizer.train(faces, np.array(ids))
-        self.recognizer.save('../DataSet/TrainerData/trainer.yml')
-        
-
+        self.recognizer.write('Face_Recognition/DataSet/TrainerData/trainer.yml')
     def GetImageLocation(self,id,path):
         count = 0
         imagePaths = [os.path.join(path, f) for f in os.listdir(path)]
-
         for imagePath in imagePaths:
             # đọc ảnh
             image = cv2.imread(imagePath)
@@ -122,10 +98,17 @@ class MyWindow(QtWidgets.QMainWindow):
                 cv2.rectangle(image, (x, y), (x + w, y + h), (255, 0, 0), 2)
                 count += 1
                 # ghi ảnh khuôn mặt vào dataset
-                cv2.imwrite("../DataSet/ImageLibrary/User." + str(id) + '.' + str(count) + ".jpg",
+                cv2.imwrite("Face_Recognition/DataSet/ImageLibrary/User." + str(id) + '.' + str(count) + ".jpg",
                             gray[y:y + h, x:x + w])
             print(imagePath)
             cv2.imshow('frame', image)
+    def GetIDImage(self):
+        f = open("MAHINHANH.txt", "r")
+        if f.mode == 'r':
+           contents =f.read()
+
+        print (contents)
+        return contents
 if __name__=='__main__':
     import sys;
     app=QtWidgets.QApplication(sys.argv)
