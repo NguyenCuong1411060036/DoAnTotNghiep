@@ -28,7 +28,8 @@ class MyWindow(QtWidgets.QMainWindow):
     def ChosseImageFile(self):
         self.ImagePath = QFileDialog.getExistingDirectory(None, 'Select a folder:', expanduser("~"))
         print( self.ImagePath)
-        self.GetImageLocation(self.MaNV,self.ImagePath)
+        if self.ImagePath != "":
+            self.GetImageLocation(self.MaNV,self.ImagePath)
     def StartWebCam(self):
         self.video_cam = cv2.VideoCapture(0)
         self.video_cam.set(cv2.CAP_PROP_FRAME_HEIGHT,331)
@@ -74,15 +75,15 @@ class MyWindow(QtWidgets.QMainWindow):
             self.lbImage.setScaledContents(True)
     def face_record(self,status):
         if status:
-            self.btnGetRealTimeFace.setText('Stop')
+            self.btnGetRealTimeFace.setText('Dừng lại')
             self.face_enable=True
         else:
-            self.btnGetRealTimeFace.setText('Chup tiep')
+            self.btnGetRealTimeFace.setText('Tiếp tục')
             self.face_enable = False
     def TrainingData(self):
         faces, ids = getImagesAndLabels()
         self.recognizer.train(faces, np.array(ids))
-        self.recognizer.write('Face_Recognition/DataSet/TrainerData/trainer.yml')
+        self.recognizer.save('Face_Recognition/DataSet/TrainerData/trainer.yml')
     def GetImageLocation(self,id,path):
         count = 0
         imagePaths = [os.path.join(path, f) for f in os.listdir(path)]
@@ -100,14 +101,11 @@ class MyWindow(QtWidgets.QMainWindow):
                 # ghi ảnh khuôn mặt vào dataset
                 cv2.imwrite("Face_Recognition/DataSet/ImageLibrary/User." + str(id) + '.' + str(count) + ".jpg",
                             gray[y:y + h, x:x + w])
-            print(imagePath)
             cv2.imshow('frame', image)
     def GetIDImage(self):
         f = open("MAHINHANH.txt", "r")
         if f.mode == 'r':
            contents =f.read()
-
-        print (contents)
         return contents
 if __name__=='__main__':
     import sys;

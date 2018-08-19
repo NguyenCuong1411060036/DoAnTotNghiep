@@ -183,7 +183,7 @@
      <enum>QFrame::Box</enum>
     </property>
     <property name="text">
-     <string>Nguyễn văn A</string>
+     <string/>
     </property>
     <property name="textFormat">
      <enum>Qt::PlainText</enum>
@@ -221,7 +221,7 @@
      <enum>QFrame::Box</enum>
     </property>
     <property name="text">
-     <string>Phòng</string>
+     <string/>
     </property>
     <property name="textFormat">
      <enum>Qt::PlainText</enum>
@@ -259,7 +259,7 @@
      <enum>QFrame::Box</enum>
     </property>
     <property name="text">
-     <string>MÃ NV: </string>
+     <string/>
     </property>
     <property name="textFormat">
      <enum>Qt::PlainText</enum>

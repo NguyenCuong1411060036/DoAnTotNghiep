@@ -387,7 +387,7 @@
    <property name="title">
     <string>Chức năng chính </string>
    </property>
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="btnXuatBangChamCong">
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -397,7 +397,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>Xem bảng chấm công </string>
+     <string>Xuất bảng chấm công </string>
     </property>
    </widget>
    <widget class="QPushButton" name="btnDiemDanh">
@@ -426,11 +426,11 @@
      <string>Quản lý chức vụ </string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_4">
+   <widget class="QPushButton" name="btnKiemSoat">
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>340</y>
+      <y>290</y>
       <width>181</width>
       <height>41</height>
      </rect>
@@ -443,7 +443,7 @@
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>410</y>
+      <y>360</y>
       <width>181</width>
       <height>41</height>
      </rect>
@@ -456,7 +456,7 @@
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>480</y>
+      <y>430</y>
       <width>181</width>
       <height>41</height>
      </rect>
@@ -476,19 +476,6 @@
     </property>
     <property name="text">
      <string>Quản lý Phòng Ban</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_8">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>270</y>
-      <width>181</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Xem Báo cáo thống kê</string>
     </property>
    </widget>
   </widget>

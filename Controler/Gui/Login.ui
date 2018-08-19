@@ -34,7 +34,7 @@
     <enum>Qt::LeftToRight</enum>
    </property>
    <property name="text">
-    <string>LOGIN</string>
+    <string>Đăng nhập</string>
    </property>
    <property name="alignment">
     <set>Qt::AlignCenter</set>

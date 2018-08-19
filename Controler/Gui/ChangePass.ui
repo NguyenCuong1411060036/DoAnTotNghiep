@@ -16,7 +16,7 @@
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
-     <x>100</x>
+     <x>130</x>
      <y>40</y>
      <width>191</width>
      <height>41</height>
@@ -28,7 +28,7 @@
     </font>
    </property>
    <property name="text">
-    <string>Change PassWord </string>
+    <string>Đổi mật khẩu</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_2">

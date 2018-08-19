@@ -181,7 +181,7 @@ def main():
     # create a database connection
     conn = create_connection('DiemDanhDatabse.db')
     with conn:
-        result = CreateAccount(conn,'123@gmail.com','123456789')
+        result = GetNhanVien(conn,'21')
         print(result)
 if __name__ == '__main__':
     main()

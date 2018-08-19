@@ -26,6 +26,8 @@ class MyWindow(QtWidgets.QMainWindow):
         self.btnLuuLai.clicked.connect(self.SuaNhanVien)
         self.btnDoiMatKhau.clicked.connect(self.DoiMatKhau)
         self.btnTaoTaiKhoan.clicked.connect(self.TaoTaiKhoan)
+        self.btnXuatBangChamCong.clicked.connect(self.Export_File_Csv)
+        self.btnKiemSoat.setDisabled(True)
         self.MaNV=None
     def ShowListNhanVien(self):
         db = QSqlDatabase.addDatabase("QSQLITE")
@@ -232,6 +234,10 @@ class MyWindow(QtWidgets.QMainWindow):
     def GetFace_Image(self):
         #self.GhiMANV(self.MaNV)
         Popen("python GetFace_Image.py")
+    def Export_File_Csv(self):
+
+        Popen("python BaoCaoDiemDanh.py")
+
     def ShowRequest(self):
         self.msg = QMessageBox()
         self.msg.setIcon(QMessageBox.Information)

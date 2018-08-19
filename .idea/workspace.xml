@@ -2,21 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6f9982d-30a2-4ec4-9cda-97b76b57a878" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Controler/CreateAccount.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Controler/DoiMatKhau.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Controler/LoginForm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Controler/BaoCaoDiemDanh.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Controler/Export_CSV.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controler/DataConnect/ConectToDatabase.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/DataConnect/ConectToDatabase.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controler/DataConnect/DiemDanhDatabse.db" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/DataConnect/DiemDanhDatabse.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controler/Face_Recognition/FunctionForCam.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/FunctionForCam.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controler/Face_Recognition/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controler/Face_recog.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_recog.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controler/Face_Recognition/DataSet/TrainerData/trainer.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controler/Face_Recognition/Face_Recog_Funds.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controler/Face_Recognition/MAHINHANH.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Face_Recognition/MAHINHANH.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controler/Face_Recognition/face_properties.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Controler/GetFace_Image.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/GetFace_Image.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controler/Gui/ChangePass.ui" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Gui/ChangePass.ui" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controler/Gui/ChinhSuaThongTin.ui" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Gui/ChinhSuaThongTin.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controler/Gui/CreateAccount.ui" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Gui/CreateAccount.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controler/Gui/DiemDanh.ui" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Gui/DiemDanh.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controler/Gui/Login.ui" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Gui/Login.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controler/LoginForm.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/LoginForm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controler/LoginSec.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/LoginSec.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controler/MainFrom.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/MainFrom.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controler/QuanLyChucVu.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/QuanLyChucVu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controler/Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/Test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controler/TrainingData.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/TrainingData.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controler/tets.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Controler/tets.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -33,78 +39,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="MainFrom.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Controler/MainFrom.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="185" column="35" selection-start-line="185" selection-start-column="35" selection-end-line="185" selection-end-column="35" />
+              <folding>
+                <element signature="e#0#44#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GetFace_Image.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Controler/GetFace_Image.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1445">
+              <caret line="94" column="44" selection-start-line="94" selection-start-column="44" selection-end-line="94" selection-end-column="44" />
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MAHINHANH.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Controler/Face_Recognition/MAHINHANH.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="2" selection-start-column="2" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="TrainingData.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Controler/TrainingData.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="4" column="51" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
-              <folding>
-                <element signature="e#209#759#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DoiMatKhau.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Controler/DoiMatKhau.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="70" column="64" lean-forward="true" selection-start-line="70" selection-start-column="64" selection-end-line="70" selection-end-column="64" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConectToDatabase.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Controler/DataConnect/ConectToDatabase.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="185" column="26" lean-forward="true" selection-start-line="185" selection-start-column="26" selection-end-line="185" selection-end-column="26" />
+            <state relative-caret-position="136">
+              <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
-                <element signature="e#94#215#0" />
-                <element signature="e#246#481#0" />
-                <element signature="e#246#347#1" />
-                <element signature="e#515#757#0" />
-                <element signature="e#791#931#0" />
-                <element signature="e#967#1254#0" />
-                <element signature="e#1282#1397#0" />
-                <element signature="e#1423#1536#0" />
-                <element signature="e#1620#1702#0" />
-                <element signature="e#1743#2026#0" />
-                <element signature="e#2062#2246#0" />
-                <element signature="e#2284#2454#0" />
-                <element signature="e#2496#2674#0" />
-                <element signature="e#2710#3166#0" />
-                <element signature="e#3202#3433#0" />
-                <element signature="e#3471#3509#0" />
-                <element signature="e#3556#3788#0" />
-                <element signature="e#3822#4063#0" />
-                <element signature="e#4112#4163#0" />
-                <element signature="e#4206#4446#0" />
-                <element signature="e#4486#4689#0" />
-                <element signature="e#4735#4958#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CreateAccount.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Controler/CreateAccount.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="60" column="24" selection-start-line="55" selection-start-column="24" selection-end-line="60" selection-end-column="24" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-                <element signature="e#250#594#0" />
-                <element signature="e#887#897#0" />
-                <element signature="e#629#967#0" />
-                <element signature="e#1201#1524#0" />
-                <element signature="e#1565#1790#0" />
-                <element signature="e#1734#2223#0" />
-                <element signature="e#2751#2868#0" />
               </folding>
             </state>
           </provider>
@@ -126,14 +100,21 @@
       <find>rows</find>
       <find>3.46020772e-03, 0., 0., 0., 0., 0., 0., 1.73010379e-02,</find>
       <find>PhongBan</find>
-      <find>QtGui</find>
       <find>txtMaNv</find>
       <find>self.MaNV</find>
-      <find>self</find>
       <find>MaNVDefault</find>
       <find>InsertPhongBan</find>
       <find>IDImage</find>
       <find>recognizer</find>
+      <find>self</find>
+      <find>from macpath import expanduser</find>
+      <find>face_record</find>
+      <find>GetImageLocation</find>
+      <find>QtGui</find>
+      <find>ImagePath</find>
+      <find>TrainingData</find>
+      <find>MaNV</find>
+      <find>getImagesAndLabels</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -144,23 +125,31 @@
       <list>
         <option value="$PROJECT_DIR$/Controler/TestFuntion.py" />
         <option value="$PROJECT_DIR$/Controler/Gui/GetFace_Image.py" />
-        <option value="$PROJECT_DIR$/Controler/Test.py" />
         <option value="$PROJECT_DIR$/Controler/QuanLyPhongBan.py" />
         <option value="$PROJECT_DIR$/Controler/Face_Recognition/LoadCamera.py" />
         <option value="$PROJECT_DIR$/Controler/tets.txt" />
-        <option value="$PROJECT_DIR$/Controler/Face_Recognition/FunctionForCam.py" />
-        <option value="$PROJECT_DIR$/Controler/Face_Recognition/test.py" />
         <option value="$PROJECT_DIR$/Controler/Face_Recognition/TrainingData.py" />
-        <option value="$PROJECT_DIR$/Controler/TrainingData.py" />
-        <option value="$PROJECT_DIR$/Controler/GetFace_Image.py" />
         <option value="$PROJECT_DIR$/Controler/QuanLyChucVu.py" />
         <option value="$PROJECT_DIR$/Controler/Face_recog.py" />
         <option value="$PROJECT_DIR$/Controler/DataConnect/DoiMatKhau.py" />
-        <option value="$PROJECT_DIR$/Controler/MainFrom.py" />
-        <option value="$PROJECT_DIR$/Controler/LoginForm.py" />
-        <option value="$PROJECT_DIR$/Controler/DoiMatKhau.py" />
-        <option value="$PROJECT_DIR$/Controler/DataConnect/ConectToDatabase.py" />
         <option value="$PROJECT_DIR$/Controler/CreateAccount.py" />
+        <option value="$PROJECT_DIR$/Controler/DoiMatKhau.py" />
+        <option value="$PROJECT_DIR$/Controler/Face_Recognition/FunctionForCam.py" />
+        <option value="$PROJECT_DIR$/Controler/face_properties.py" />
+        <option value="$PROJECT_DIR$/Controler/Face_Recog_Funds.py" />
+        <option value="$PROJECT_DIR$/Controler/Face_Recognition/face_properties.py" />
+        <option value="$PROJECT_DIR$/Controler/Face_Recognition/Face_Recog_Funds.py" />
+        <option value="$PROJECT_DIR$/Controler/LoginForm.py" />
+        <option value="$PROJECT_DIR$/Controler/DiemDanh.csv" />
+        <option value="$PROJECT_DIR$/Controler/Face_Recognition/test.py" />
+        <option value="$PROJECT_DIR$/Controler/Test.py" />
+        <option value="$PROJECT_DIR$/Controler/DataConnect/ConectToDatabase.py" />
+        <option value="$PROJECT_DIR$/Controler/Export_CSV.py" />
+        <option value="$PROJECT_DIR$/Controler/BaoCaoDiemDanh.py" />
+        <option value="$PROJECT_DIR$/Controler/MainFrom.py" />
+        <option value="$PROJECT_DIR$/Controler/TrainingData.py" />
+        <option value="$PROJECT_DIR$/Controler/Face_Recognition/MAHINHANH.txt" />
+        <option value="$PROJECT_DIR$/Controler/GetFace_Image.py" />
       </list>
     </option>
   </component>
@@ -171,7 +160,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="768" />
+    <option name="width" value="977" />
     <option name="height" value="688" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -182,6 +171,48 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="DoAnTotNghiep" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DoAnTotNghiep" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DoAnTotNghiep" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DoAnTotNghiep" type="462c0819:PsiDirectoryNode" />
+              <item name="Controler" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DoAnTotNghiep" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DoAnTotNghiep" type="462c0819:PsiDirectoryNode" />
+              <item name="Controler" type="462c0819:PsiDirectoryNode" />
+              <item name="Face_Recognition" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DoAnTotNghiep" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DoAnTotNghiep" type="462c0819:PsiDirectoryNode" />
+              <item name="Controler" type="462c0819:PsiDirectoryNode" />
+              <item name="Face_Recognition" type="462c0819:PsiDirectoryNode" />
+              <item name="DataSet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DoAnTotNghiep" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DoAnTotNghiep" type="462c0819:PsiDirectoryNode" />
+              <item name="Controler" type="462c0819:PsiDirectoryNode" />
+              <item name="Face_Recognition" type="462c0819:PsiDirectoryNode" />
+              <item name="DataSet" type="462c0819:PsiDirectoryNode" />
+              <item name="Image" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DoAnTotNghiep" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DoAnTotNghiep" type="462c0819:PsiDirectoryNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Project Files">
           <expand>
@@ -203,61 +234,28 @@
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="DoAnTotNghiep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DoAnTotNghiep" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DoAnTotNghiep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DoAnTotNghiep" type="462c0819:PsiDirectoryNode" />
-              <item name="Controler" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DoAnTotNghiep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DoAnTotNghiep" type="462c0819:PsiDirectoryNode" />
-              <item name="Controler" type="462c0819:PsiDirectoryNode" />
-              <item name="DataConnect" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DoAnTotNghiep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DoAnTotNghiep" type="462c0819:PsiDirectoryNode" />
-              <item name="Controler" type="462c0819:PsiDirectoryNode" />
-              <item name="Gui" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DoAnTotNghiep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DoAnTotNghiep" type="462c0819:PsiDirectoryNode" />
-              <item name="venv" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="ter&#9;ACTION&#9;ActivateTerminalToolWindow" />
+    <property name="SearchEverywhereHistoryKey" value="MaNV&#9;null&#9;null&#10;ter&#9;ACTION&#9;ActivateTerminalToolWindow" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\NguyenCuong\PycharmProjects\DoAnTotNghiep\Controler\Face_Recognition" />
+      <recent name="C:\Users\NguyenCuong\PycharmProjects\DoAnTotNghiep\Controler" />
+      <recent name="C:\Users\NguyenCuong\PycharmProjects\DoAnTotNghiep\DataSet\ImageLibrary" />
+      <recent name="C:\Users\NguyenCuong\PycharmProjects\DoAnTotNghiep\DataSet" />
+      <recent name="C:\Users\NguyenCuong\PycharmProjects\DoAnTotNghiep\Gui" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\NguyenCuong\PycharmProjects\DoAnTotNghiep\Controler" />
       <recent name="C:\Users\NguyenCuong\PycharmProjects\DoAnTotNghiep\Controler\Face_Recognition" />
       <recent name="C:\Users\NguyenCuong\PycharmProjects\DoAnTotNghiep\Controler\Gui" />
       <recent name="C:\Users\NguyenCuong\PycharmProjects\DoAnTotNghiep\.idea" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\NguyenCuong\PycharmProjects\DoAnTotNghiep\DataSet\ImageLibrary" />
-      <recent name="C:\Users\NguyenCuong\PycharmProjects\DoAnTotNghiep\Controler" />
-      <recent name="C:\Users\NguyenCuong\PycharmProjects\DoAnTotNghiep\DataSet" />
-      <recent name="C:\Users\NguyenCuong\PycharmProjects\DoAnTotNghiep\Controler\Face_Recognition" />
-      <recent name="C:\Users\NguyenCuong\PycharmProjects\DoAnTotNghiep\Gui" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -272,26 +270,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ConectToDatabase">
-    <configuration name="ConectToDatabase" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="DoAnTotNghiep" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Controler/DataConnect" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Controler/DataConnect/ConectToDatabase.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="CreateAccount" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.MainFrom">
+    <configuration name="Face_recog" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DoAnTotNghiep" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -303,13 +283,13 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Controler/CreateAccount.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Controler/Face_recog.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="DoiMatKhau (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="GetFace_Image" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DoAnTotNghiep" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -321,7 +301,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Controler/DoiMatKhau.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Controler/GetFace_Image.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -363,20 +343,38 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="TrainingData" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DoAnTotNghiep" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Controler" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Controler/TrainingData.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
       <item itemvalue="Python.MainFrom" />
       <item itemvalue="Python.LoginForm" />
-      <item itemvalue="Python.ConectToDatabase" />
-      <item itemvalue="Python.DoiMatKhau (1)" />
-      <item itemvalue="Python.CreateAccount" />
+      <item itemvalue="Python.Face_recog" />
+      <item itemvalue="Python.GetFace_Image" />
+      <item itemvalue="Python.TrainingData" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.ConectToDatabase" />
-        <item itemvalue="Python.CreateAccount" />
-        <item itemvalue="Python.DoiMatKhau (1)" />
-        <item itemvalue="Python.LoginForm" />
         <item itemvalue="Python.MainFrom" />
+        <item itemvalue="Python.LoginForm" />
+        <item itemvalue="Python.GetFace_Image" />
+        <item itemvalue="Python.TrainingData" />
+        <item itemvalue="Python.Face_recog" />
       </list>
     </recent_temporary>
   </component>
@@ -404,19 +402,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.35285506" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2898975" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3290938" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3290938" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5014641" side_tool="true" weight="0.3290938" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="Python Console" order="8" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3290938" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49853587" weight="0.3290938" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" x="0" y="260" width="1366" height="207" id="Terminal" order="9" type="WINDOWED" weight="0.3290938" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.0063593006" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49853587" weight="0.0063593006" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -426,7 +422,30 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="SciView" order="4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3290938" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49926794" visible="true" weight="0.3290938" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2898975" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3290938" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49926794" weight="0.0063593006" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" x="0" y="260" width="1366" height="207" id="Terminal" order="9" type="WINDOWED" weight="0.3290938" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50073206" side_tool="true" weight="0.3290938" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="right" id="SciView" order="4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3290938" />
+      <window_info anchor="bottom" id="Python Console" order="8" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -498,38 +517,23 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Controler/MainFrom.py</url>
-          <line>155</line>
+          <line>157</line>
           <option name="timeStamp" value="107" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Controler/MainFrom.py</url>
-          <line>156</line>
+          <line>158</line>
           <option name="timeStamp" value="108" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Controler/MainFrom.py</url>
-          <line>157</line>
+          <line>159</line>
           <option name="timeStamp" value="109" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Controler/MainFrom.py</url>
-          <line>159</line>
+          <line>161</line>
           <option name="timeStamp" value="110" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Controler/GetFace_Image.py</url>
-          <line>83</line>
-          <option name="timeStamp" value="124" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Controler/GetFace_Image.py</url>
-          <line>84</line>
-          <option name="timeStamp" value="125" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Controler/TrainingData.py</url>
-          <line>7</line>
-          <option name="timeStamp" value="126" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Controler/DoiMatKhau.py</url>
@@ -553,7 +557,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Controler/DoiMatKhau.py</url>
-          <line>60</line>
+          <line>61</line>
           <option name="timeStamp" value="136" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -562,31 +566,53 @@
           <option name="timeStamp" value="140" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Controler/DataConnect/ConectToDatabase.py</url>
-          <line>175</line>
-          <option name="timeStamp" value="141" />
+          <url>file://$PROJECT_DIR$/Controler/DoiMatKhau.py</url>
+          <line>56</line>
+          <option name="timeStamp" value="147" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Controler/DoiMatKhau.py</url>
+          <line>71</line>
+          <option name="timeStamp" value="148" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Controler/DataConnect/ConectToDatabase.py</url>
-          <line>174</line>
-          <option name="timeStamp" value="142" />
+          <line>183</line>
+          <option name="timeStamp" value="169" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Controler/DataConnect/ConectToDatabase.py</url>
-          <line>173</line>
-          <option name="timeStamp" value="143" />
+          <line>35</line>
+          <option name="timeStamp" value="170" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Controler/DataConnect/ConectToDatabase.py</url>
-          <line>165</line>
-          <option name="timeStamp" value="144" />
+          <url>file://$PROJECT_DIR$/Controler/BaoCaoDiemDanh.py</url>
+          <line>59</line>
+          <option name="timeStamp" value="174" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Controler/DataConnect/ConectToDatabase.py</url>
-          <line>161</line>
-          <option name="timeStamp" value="145" />
+          <url>file://$PROJECT_DIR$/Controler/BaoCaoDiemDanh.py</url>
+          <line>52</line>
+          <option name="timeStamp" value="175" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Controler/BaoCaoDiemDanh.py</url>
+          <line>54</line>
+          <option name="timeStamp" value="176" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Controler/MainFrom.py</url>
+          <option name="timeStamp" value="178" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Controler/TrainingData.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="181" />
         </line-breakpoint>
       </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
@@ -594,247 +620,61 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="147" />
+      <option name="time" value="182" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Controler/User.1.1.jpg" />
-    <entry file="file://$PROJECT_DIR$/DataSet/ImageLibrary/User.1.1.jpg" />
-    <entry file="file://$PROJECT_DIR$/Controler/User.1.2.jpg" />
-    <entry file="file://$PROJECT_DIR$/Controler/User.1.100.jpg" />
-    <entry file="file://$PROJECT_DIR$/Controler/User.10.100.jpg" />
-    <entry file="file://$PROJECT_DIR$/Controler/User.10.99.jpg" />
-    <entry file="file://$PROJECT_DIR$/Controler/User.10.93.jpg" />
-    <entry file="file://$PROJECT_DIR$/Controler/User.10.91.jpg" />
-    <entry file="file://$PROJECT_DIR$/Controler/User.10.54.jpg" />
-    <entry file="file://$PROJECT_DIR$/Controler/User.10.52.jpg" />
-    <entry file="file://$PROJECT_DIR$/Controler/User.10.50.jpg" />
-    <entry file="file://$PROJECT_DIR$/Controler/User.10.49.jpg" />
-    <entry file="file://$PROJECT_DIR$/Controler/User.10.48.jpg" />
-    <entry file="file://$PROJECT_DIR$/Controler/User.10.1.jpg" />
-    <entry file="file://$PROJECT_DIR$/DataSet/ImageLibrary/User.None.12.jpg" />
-    <entry file="file://$PROJECT_DIR$/DataSet/ImageLibrary/User.None.15.jpg" />
-    <entry file="file://$PROJECT_DIR$/DataSet/ImageLibrary/User.None.98.jpg" />
-    <entry file="file://$PROJECT_DIR$/DataSet/ImageLibrary/User.20.11.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataSet/ImageLibrary/User.20.91.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controler/Test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="141" column="22" selection-start-line="141" selection-start-column="22" selection-end-line="141" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-            <element signature="e#387#5072#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controler/tets.txt">
+    <entry file="file://$PROJECT_DIR$/Controler/Face_Recognition/Face_Recog_Funds.py" />
+    <entry file="file://$PROJECT_DIR$/Controler/names.csv" />
+    <entry file="file://$PROJECT_DIR$/Controler/output.csv" />
+    <entry file="file://$PROJECT_DIR$/Controler/Report.txt" />
+    <entry file="file://$PROJECT_DIR$/Controler/Face_Recognition/FunctionForCam.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Controler/Face_Recognition/guru99.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="3" lean-forward="true" selection-start-column="3" selection-end-column="3" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/Controler/n" />
+    <entry file="file://$PROJECT_DIR$/Controler/baocao" />
+    <entry file="file://$PROJECT_DIR$/Controler/baocao.csv" />
+    <entry file="file://$PROJECT_DIR$/Controler/Face_Recognition/DataSet/ImageLibrary/User.24.1.jpg" />
+    <entry file="file://$PROJECT_DIR$/Controler/feed/address/file.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controler/Report.csv" />
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3/datetime.pyi">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Controler/Face_Recognition/test.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Controler/Face_Recognition/FunctionForCam.py">
+    <entry file="file://$PROJECT_DIR$/Controler/DiemDanh.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="51">
+          <caret line="3" column="9" lean-forward="true" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/_bootlocale.py">
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.1/system/python_stubs/811765563/PyQt5/QtWidgets/QFileDialog.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="132">
+          <caret line="169" column="8" selection-start-line="169" selection-start-column="8" selection-end-line="169" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/codecs.py">
+    <entry file="file://$PROJECT_DIR$/Controler/Test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="332" selection-start-line="332" selection-end-line="332" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controler/Face_Recognition/MAHINHANH.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controler/Face_Recognition/DataSet/ImageLibrary/User.24.11.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controler/MAHINHANH.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controler/Face_Recognition/DataSet/ImageLibrary/User.24.14.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controler/Face_Recognition/DataSet/ImageLibrary/User.24.12.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controler/Face_Recognition/DataSet/ImageLibrary/User.24.9.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controler/Face_Recognition/DataSet/ImageLibrary/User.24.7.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controler/Face_Recognition/DataSet/ImageLibrary/User.24.100.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controler/Face_Recognition/DataSet/ImageLibrary/User.24.1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controler/Face_Recognition/DataSet/ImageLibrary/User.24.2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controler/Face_Recognition/DataSet/ImageLibrary/User.24.4.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataSet/ImageLibrary/User.None.1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controler/Face_Recognition/DataSet/TrainerData/trainer.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="170246" column="26" lean-forward="true" selection-start-line="170246" selection-start-column="26" selection-end-line="170246" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controler/Face_Recognition/DataSet/ImageLibrary/User.24.3.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controler/QuanLyChucVu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controler/Face_recog.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="43" lean-forward="true" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controler/QuanLyPhongBan.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="85" column="23" lean-forward="true" selection-start-line="79" selection-start-column="3" selection-end-line="85" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controler/LoginSec.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controler/GetFace_Image.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="110" column="23" lean-forward="true" selection-start-line="105" selection-start-column="7" selection-end-line="110" selection-end-column="23" />
-          <folding>
-            <element signature="e#482#1179#0" />
-            <element signature="e#1219#1398#0" />
-            <element signature="e#1433#1698#0" />
-            <element signature="e#1820#2135#0" />
-            <element signature="e#2191#2541#0" />
-            <element signature="e#2511#2888#0" />
-            <element signature="e#3013#3471#0" />
-            <element signature="e#3514#3718#0" />
-            <element signature="e#3788#3978#0" />
-            <element signature="e#4637#5482#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controler/MainFrom.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="99" column="49" lean-forward="true" selection-start-line="99" selection-start-column="49" selection-end-line="99" selection-end-column="49" />
-          <folding>
-            <element signature="e#566#1317#0" />
-            <element signature="e#1358#2033#0" />
-            <element signature="e#2070#2262#0" />
-            <element signature="e#2297#2485#0" />
-            <element signature="e#2531#2876#0" />
-            <element signature="e#2926#3285#0" />
-            <element signature="e#3336#4350#0" />
-            <element signature="e#5216#5602#0" />
-            <element signature="e#5637#5848#0" />
-            <element signature="e#5878#7160#0" />
-            <element signature="e#7130#7465#0" />
-            <element signature="e#7506#7731#0" />
-            <element signature="e#7776#8006#0" />
-            <element signature="e#8042#9419#0" />
-            <element signature="e#9452#9481#0" />
-            <element signature="e#9697#9730#0" />
-            <element signature="e#9704#9711#0" />
-            <element signature="e#9829#9860#0" />
-            <element signature="e#9658#9734#0" />
-            <element signature="e#9772#9836#0" />
-            <element signature="e#9872#10690#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controler/LoginForm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="31" column="23" lean-forward="true" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controler/TrainingData.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="4" column="51" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
-          <folding>
-            <element signature="e#209#759#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controler/DoiMatKhau.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="70" column="64" lean-forward="true" selection-start-line="70" selection-start-column="64" selection-end-line="70" selection-end-column="64" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="289">
+          <caret line="17" column="57" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="57" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Controler/DataConnect/ConectToDatabase.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="185" column="26" lean-forward="true" selection-start-line="185" selection-start-column="26" selection-end-line="185" selection-end-column="26" />
+        <state relative-caret-position="428">
+          <caret line="183" column="39" lean-forward="true" selection-start-line="183" selection-start-column="39" selection-end-line="183" selection-end-column="39" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
             <element signature="e#94#215#0" />
             <element signature="e#246#481#0" />
             <element signature="e#246#347#1" />
-            <element signature="e#515#757#0" />
-            <element signature="e#791#931#0" />
             <element signature="e#967#1254#0" />
             <element signature="e#1282#1397#0" />
             <element signature="e#1423#1536#0" />
@@ -846,29 +686,136 @@
             <element signature="e#2710#3166#0" />
             <element signature="e#3202#3433#0" />
             <element signature="e#3471#3509#0" />
-            <element signature="e#3556#3788#0" />
             <element signature="e#3822#4063#0" />
             <element signature="e#4112#4163#0" />
             <element signature="e#4206#4446#0" />
             <element signature="e#4486#4689#0" />
-            <element signature="e#4735#4958#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Controler/CreateAccount.py">
+    <entry file="file://$PROJECT_DIR$/Controler/QuanLyPhongBan.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="60" column="24" selection-start-line="55" selection-start-column="24" selection-end-line="60" selection-end-column="24" />
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
-            <element signature="e#250#594#0" />
-            <element signature="e#887#897#0" />
-            <element signature="e#629#967#0" />
-            <element signature="e#1201#1524#0" />
-            <element signature="e#1565#1790#0" />
-            <element signature="e#1734#2223#0" />
-            <element signature="e#2751#2868#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.1/system/python_stubs/811765563/PyQt5/QtWidgets/QDateTimeEdit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="88" column="8" selection-start-line="88" selection-start-column="8" selection-end-line="88" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controler/Export_CSV.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="31" column="144" selection-start-line="31" selection-start-column="144" selection-end-line="31" selection-end-column="144" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controler/BaoCaoDiemDanh.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="18" column="38" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="38" />
+          <folding>
+            <element signature="e#2#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controler/LoginForm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="56" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controler/Face_Recognition/DataSet/ImageLibrary/User.30.6.jpg" />
+    <entry file="file://$PROJECT_DIR$/Controler/Face_Recognition/DataSet/ImageLibrary/User.30.7.jpg" />
+    <entry file="file://$PROJECT_DIR$/Controler/Face_Recognition/DataSet/ImageLibrary/User.30.9.jpg" />
+    <entry file="file://$PROJECT_DIR$/Controler/Face_Recognition/DataSet/ImageLibrary/User.30.11.jpg" />
+    <entry file="file://$PROJECT_DIR$/Controler/Face_Recognition/DataSet/ImageLibrary/User.30.16.jpg" />
+    <entry file="file://$PROJECT_DIR$/Controler/Face_Recognition/DataSet/ImageLibrary/User.30.14.jpg" />
+    <entry file="file://$PROJECT_DIR$/Controler/CreateAccount.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="60" column="24" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controler/Face_Recognition/DataSet/ImageLibrary/User.26.1.jpg" />
+    <entry file="file://$PROJECT_DIR$/Controler/Face_Recognition/DataSet/ImageLibrary/User.26.5.jpg" />
+    <entry file="file://$PROJECT_DIR$/Controler/Face_Recognition/DataSet/ImageLibrary/User.26.6.jpg" />
+    <entry file="file://$PROJECT_DIR$/Controler/Face_Recognition/DataSet/ImageLibrary/User.26.7.jpg" />
+    <entry file="file://$PROJECT_DIR$/Controler/Face_Recognition/DataSet/ImageLibrary/User.26.8.jpg" />
+    <entry file="file://$PROJECT_DIR$/Controler/Face_Recognition/DataSet/ImageLibrary/User.26.4.jpg" />
+    <entry file="file://$PROJECT_DIR$/Controler/Face_Recognition/DataSet/ImageLibrary/User.26.2.jpg" />
+    <entry file="file://$PROJECT_DIR$/Controler/Face_recog.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controler/Face_Recognition/DataSet/ImageLibrary/User.24.68.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controler/Face_Recognition/DataSet/ImageLibrary/User.33.98.jpg" />
+    <entry file="file://$PROJECT_DIR$/Controler/Face_Recognition/DataSet/ImageLibrary/User.33.2.jpg" />
+    <entry file="file://$PROJECT_DIR$/Controler/Face_Recognition/DataSet/ImageLibrary/User.33.1.jpg" />
+    <entry file="file://$PROJECT_DIR$/Controler/Face_Recognition/DataSet/ImageLibrary/User.33.6.jpg" />
+    <entry file="file://$PROJECT_DIR$/Controler/Face_Recognition/DataSet/ImageLibrary/User.33.9.jpg" />
+    <entry file="file://$PROJECT_DIR$/Controler/Face_Recognition/DataSet/ImageLibrary/User.33.11.jpg" />
+    <entry file="file://$PROJECT_DIR$/Controler/Face_Recognition/DataSet/ImageLibrary/User.33.15.jpg" />
+    <entry file="file://$PROJECT_DIR$/Controler/Face_Recognition/DataSet/ImageLibrary/User.33.17.jpg" />
+    <entry file="file://$PROJECT_DIR$/Controler/TrainingData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controler/Face_Recognition/MAHINHANH.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2" selection-start-column="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controler/Face_Recognition/DataSet/TrainerData/trainer.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="1758" column="43" selection-start-line="1758" selection-start-column="43" selection-end-line="1758" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controler/GetFace_Image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1445">
+          <caret line="94" column="44" selection-start-line="94" selection-start-column="44" selection-end-line="94" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controler/MainFrom.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="185" column="35" selection-start-line="185" selection-start-column="35" selection-end-line="185" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
           </folding>
         </state>
       </provider>
